@@ -1,0 +1,40 @@
+{
+    "customerKey": "7fce5004-4e82-46db-b0ec-992915cc1ac4",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "FOUR IMAGES BLOCK"
+    },
+    "name": "FOUR IMAGES BLOCK",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-25T08:48:21.493-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-26T04:55:52.077-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/TEMPLATE_BLOCKS/BLOCKS"
+}

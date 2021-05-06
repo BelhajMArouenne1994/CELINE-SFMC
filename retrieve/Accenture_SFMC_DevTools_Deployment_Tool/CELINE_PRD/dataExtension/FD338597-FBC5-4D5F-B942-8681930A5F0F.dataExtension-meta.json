@@ -1,0 +1,68 @@
+{
+    "CreatedDate": "2021-03-29T02:09:34.017",
+    "CustomerKey": "FD338597-FBC5-4D5F-B942-8681930A5F0F",
+    "Name": "Resubscription Automation",
+    "Description": "This Data Extension contains the latest Clients who have RESUBSCRIBED to Celine emails",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "DataRetentionPeriodLength": "1",
+    "DataRetentionPeriodUnitOfMeasure": "6",
+    "RowBasedRetention": "true",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "ContactKey",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Email",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Status",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Date Of Resubscription",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Date Of Unsubscription",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Reason Of Unsubscription",
+            "DefaultValue": "",
+            "MaxLength": "500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Resubscription Automation"
+}

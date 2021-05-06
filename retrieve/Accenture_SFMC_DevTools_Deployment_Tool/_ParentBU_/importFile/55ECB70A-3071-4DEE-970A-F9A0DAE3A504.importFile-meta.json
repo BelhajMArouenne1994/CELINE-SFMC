@@ -1,0 +1,66 @@
+{
+    "allowErrors": true,
+    "customerKey": "55ECB70A-3071-4DEE-970A-F9A0DAE3A504",
+    "createdDate": "2021-05-04T07:30:02.027",
+    "modifiedDate": "2021-05-04T07:30:02.027",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "AccessDate"
+        },
+        {
+            "sourceFieldOrdinal": 9,
+            "destinationFieldName": "EventSource"
+        },
+        {
+            "sourceFieldOrdinal": 4,
+            "destinationFieldName": "FromIP"
+        },
+        {
+            "sourceFieldOrdinal": 7,
+            "destinationFieldName": "LoginStatusID"
+        },
+        {
+            "sourceFieldOrdinal": 8,
+            "destinationFieldName": "LoginStatusName"
+        },
+        {
+            "sourceFieldOrdinal": 6,
+            "destinationFieldName": "SecurityEventType"
+        },
+        {
+            "sourceFieldOrdinal": 5,
+            "destinationFieldName": "SecurityEventTypeID"
+        },
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "User"
+        },
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "UserName"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "Audit_Trail_Access_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_AUDIT_TRAIL_ACESS_LOG",
+    "notificationEmailAddress": "amal.bahrini-ext@celine.fr",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 9,
+    "r__ftpLocation_name": "Audit_Trail",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "5D20C18E-8FC0-4C30-9E90-D685A6A79201",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Add"
+}

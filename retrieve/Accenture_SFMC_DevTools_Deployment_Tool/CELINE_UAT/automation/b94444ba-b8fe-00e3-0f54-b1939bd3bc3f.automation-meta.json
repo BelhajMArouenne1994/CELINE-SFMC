@@ -1,0 +1,55 @@
+{
+    "name": "IMPORT_CHEETAH_DATA",
+    "description": "",
+    "key": "b94444ba-b8fe-00e3-0f54-b1939bd3bc3f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_DATA_CHEETAH",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "SQL_CHEETAH_DATA_PREP",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "IMPORT_RAMP_DATA",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "SQL_QUERY_VALIDATE_RAMP_UP_DATA",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports"
+}

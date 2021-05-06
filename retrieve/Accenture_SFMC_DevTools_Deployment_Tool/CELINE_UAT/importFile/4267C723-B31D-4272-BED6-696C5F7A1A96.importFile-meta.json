@@ -1,0 +1,43 @@
+{
+    "allowErrors": true,
+    "customerKey": "4267C723-B31D-4272-BED6-696C5F7A1A96",
+    "createdDate": "2021-02-25T16:34:12.807",
+    "modifiedDate": "2021-04-13T02:31:39.52",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "Email Address"
+        },
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "Status"
+        },
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "Subscriber Key"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "Resubscriptions_%%Year%%_%%Month%%_%%Day%%.csv",
+    "fileType": "Other",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT RESUBSCRIPTIONS INTO ALL SUBSCRIBERS LIST",
+    "notificationEmailAddress": "support.salesforce.sfmc@celine.fr",
+    "otherDelimiter": ",",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "List",
+    "r__list_PathName": "my subscribers/All Subscribers",
+    "c__subscriberImportType": "Email",
+    "c__dataAction": "Update"
+}

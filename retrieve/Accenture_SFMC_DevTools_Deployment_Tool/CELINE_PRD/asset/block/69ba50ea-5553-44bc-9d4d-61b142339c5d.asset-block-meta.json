@@ -1,0 +1,40 @@
+{
+    "customerKey": "69ba50ea-5553-44bc-9d4d-61b142339c5d",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "HEADER BLOCK"
+    },
+    "name": "HEADER BLOCK",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-25T03:52:19.193-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-04-29T06:37:35.75-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/TEMPLATE_BLOCKS/BLOCKS"
+}

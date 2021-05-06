@@ -1,0 +1,40 @@
+{
+    "customerKey": "c5cf3afa-65d5-4f1b-8a1a-525f710b9a98",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "SUBJECT PREHEADER BLOCK"
+    },
+    "name": "SUBJECT PREHEADER BLOCK",
+    "owner": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "createdDate": "2021-04-08T01:26:22.09-06:00",
+    "createdBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "modifiedDate": "2021-04-21T04:14:22.45-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/TEMPLATE_BLOCKS/BLOCKS"
+}

@@ -1,0 +1,124 @@
+{
+    "CreatedDate": "2021-03-20T04:04:53.057",
+    "CustomerKey": "075F5488-F006-406D-8E9C-18B892F77DF2",
+    "Name": "EMAIL_BODY_TRANSLATION",
+    "Description": "This Data Extension contains Links and Texts used in the Body of the Email Template",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Language",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region Main Store",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Nationality",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country Main Store",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "City",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Main Store",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual CTA Line 1 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual CTA Line 2 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual CTA Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Translation Tables"
+}

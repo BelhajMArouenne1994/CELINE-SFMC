@@ -1,0 +1,32 @@
+{
+    "customerKey": "b9954185-4084-4b32-98bf-2774d67f49f3",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CODE_SNIPPET_EMAIL_BODY_TRANSLATION_AUTOMATED"
+    },
+    "name": "CODE_SNIPPET_EMAIL_BODY_TRANSLATION_AUTOMATED",
+    "description": "To get all the variables from Email Template Translation",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-22T09:49:45.117-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-22T09:49:45.117-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Emails/Test Emails OLD/Test Dynamic Links/CODE_SNIPPETS_AUTOMATED"
+}

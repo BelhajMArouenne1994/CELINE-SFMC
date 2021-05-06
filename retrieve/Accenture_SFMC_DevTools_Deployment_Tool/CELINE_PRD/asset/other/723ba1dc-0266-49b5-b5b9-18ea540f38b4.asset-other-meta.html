@@ -1,0 +1,16 @@
+<div style="display:none">
+%%[
+VAR @IsTestSend
+SET @IsTestSend = _IsTestSend
+
+VAR @SendTime
+SET @SendTime = Format(SystemDateToLocalDate(NOW()), "yyyy-MM-ddTHH:mm:ss", "Date", "fr-FR")
+
+VAR @DayOfTheWeek
+SET @DayOfTheWeek = Format(SystemDateToLocalDate(NOW()), "dddd", "Date", "en-FR")
+
+VAR @DataSourceName
+SET @DataSourceName = _DataSourceName
+
+]%%
+</div> 

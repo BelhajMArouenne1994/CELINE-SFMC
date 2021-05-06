@@ -1,0 +1,128 @@
+{
+    "CreatedDate": "2021-04-08T00:54:13.587",
+    "CustomerKey": "6D05E2C7-8532-42F6-89DA-02DAC6EC5B74",
+    "Name": "EMAIL SOCIAL MEDIA LINKS TRANSLATION",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email Code",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region Main Store",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Language",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/TRANSALATION TABLES"
+}

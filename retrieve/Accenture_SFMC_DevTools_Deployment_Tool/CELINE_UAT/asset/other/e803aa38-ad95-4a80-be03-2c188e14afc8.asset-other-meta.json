@@ -1,0 +1,54 @@
+{
+    "customerKey": "e803aa38-ad95-4a80-be03-2c188e14afc8",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "SendLog_CODE_SNIPPET"
+    },
+    "name": "SENDLOG_CODE_SNIPPET",
+    "owner": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "createdDate": "2021-04-21T09:44:51.143-06:00",
+    "createdBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "modifiedDate": "2021-04-29T04:29:18.977-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "businessUnitAvailability": {
+        "510003127": {
+            "view": true,
+            "update": false,
+            "delete": false,
+            "memberId": 510003127,
+            "transferOwnership": false
+        },
+        "510003879": {
+            "view": true,
+            "update": false,
+            "delete": false,
+            "memberId": 510003879,
+            "transferOwnership": false
+        }
+    },
+    "sharingProperties": {
+        "sharingType": "view",
+        "sharedWith": [
+            510003127,
+            510003879
+        ]
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Code Snippets"
+}

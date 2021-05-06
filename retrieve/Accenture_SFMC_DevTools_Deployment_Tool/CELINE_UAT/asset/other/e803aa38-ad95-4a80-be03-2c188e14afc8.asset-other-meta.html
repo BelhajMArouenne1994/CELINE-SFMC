@@ -1,0 +1,55 @@
+<div style="display:none">
+%%[
+
+VAR @SubscriberKey
+IF EMPTY(_subscriberkey) THEN
+  SET @SubscriberKey = ContactKey
+ELSE
+  SET @SubscriberKey = _subscriberkey
+ENDIF
+
+
+VAR @EmailName
+SET @EmailName = emailname_
+
+VAR @preheader
+SET @preheader = [_preheader]
+
+VAR @IsTestSend
+SET @IsTestSend = _IsTestSend
+
+VAR @SendTime
+SET @SendTime = Format(SystemDateToLocalDate(NOW()), "yyyy-MM-ddTHH:mm:ss", "Date", "fr-FR")
+
+VAR @DayOfTheWeek
+SET @DayOfTheWeek = Format(SystemDateToLocalDate(NOW()), "dddd", "Date", "en-FR")
+
+VAR @DataSourceName
+SET @DataSourceName = _DataSourceName
+
+/* Retrieving Contacts D.E variables */
+VAR  @[External Id], @Language, @[Region Main Store], @[Customer Type], @Origin,
+     @[Current Segmentation], @[Previous Segmentation], @[Salesforce Creation Date], @[Salesforce Last Update Date]
+
+VAR @rows
+SET @rows = LookupRows("Contacts", "ContactKey", @SubscriberKey)
+
+IF Rowcount(@rows) > 0 THEN
+
+  VAR @row
+  SET @row = Row(@rows, 1)
+  
+  SET @[External Id] = Field(@row, "External Id")
+  SET @Language = Field(@row, "Language")
+  SET @[Region Main Store] = Field(@row, "Region Main Store")
+  SET @[Customer Type] = Field(@row, "Customer Type")
+  SET @Origin = Field(@row, "Origin")
+  SET @[Current Segmentation] = Field(@row, "Current Segmentation")
+  SET @[Previous Segmentation] = Field(@row, "Previous Segmentation")
+  SET @[Salesforce Creation Date] = Field(@row, "Salesforce Creation Date")
+  SET @[Salesforce Last Update Date] = Field(@row, "Salesforce Last Update Date")
+
+ENDIF
+
+]%%
+</div> 

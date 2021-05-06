@@ -1,0 +1,63 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none">
+    %%=ContentBlockByName("Content Builder\TEMPLATE_BLOCKS\CODE SNIPPETS\CODE_SNIPPET_EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION")=%%
+    %%[
+    VAR @align
+    IF NOT EMPTY(__AdditionalEmailAttribute2) THEN
+    SET @align = __AdditionalEmailAttribute2
+    ELSE
+    SET @align = "justify"
+    ENDIF
+    ]%%
+</div>
+<table class="w100v" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tr>
+        <td style="padding-left:50px;padding-right:50px;padding-bottom:50px;" class="pad-lr" valign="top" align="%%=v(@align)=%%">
+            <table class="w875v" width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                    <td class="w875v">
+                        <table class="w875v" width="346" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tr>
+                                <td>
+                                    <a href="%%=RedirectTo(@visualImageLink_1)=%%" target="_blank">
+                                        <img src="%%=v(@visualImage_1)=%%" style="display: block;" alt="" class="w4275v" width="169" border="0">
+                                    </a>
+                                </td>
+                                <td class="w2v" width="8">
+                                </td>
+                                <td>
+                                    <a href="%%=RedirectTo(@visualImageLink_2)=%%" target="_blank">
+                                        <img src="%%=v(@visualImage_2)=%%" style="display: block;" alt="" class="w4275v" width="169" border="0">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if gte mso 9]></td><td><![endif]-->
+                        <table class="w875v" width="8" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tr>
+                                <td class="w875v h2v" width="8" height="169">
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if gte mso 9]></td><td><![endif]-->
+                        <table class="w875v" width="346" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tr>
+                                <td>
+                                    <a href="%%=RedirectTo(@visualImageLink_3)=%%" target="_blank">
+                                        <img src="%%=v(@visualImage_3)=%%" ;="" style="display: block;" alt="" class="w4275v" width="169" border="0">
+                                    </a>
+                                </td>
+                                <td class="w2v" width="8">
+                                </td>
+                                <td>
+                                    <a href="%%=RedirectTo(@visualImageLink_4)=%%" target="_blank">
+                                        <img src="%%=v(@visualImage_4)=%%" style="display: block;" alt="" class="w4275v" width="169" border="0">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table></td></tr></table>

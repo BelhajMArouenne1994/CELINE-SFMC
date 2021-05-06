@@ -1,0 +1,30 @@
+{
+    "name": "IMPORT_EMAIL_HEADER_TRANSLATION",
+    "description": "",
+    "key": "40e7e5f6-72ef-080d-9155-6bbbf5f4a462",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 2,
+        "fileNamingPattern": "EMAIL_HEADER-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_HEADER_TRANSLATION",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}

@@ -1,0 +1,405 @@
+{
+    "name": "CELINE MAIN-50233-510003127-PSMain",
+    "description": "This automation sends CURRENT data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+    "key": "510003127-PredictiveScoring-PSMain",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2021-02-24T06:59:33.687",
+        "endDate": "2051-02-23T06:59:33",
+        "icalRecur": "FREQ=HOURLY;COUNT=10957;INTERVAL=24",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "Predictive Scoring extract-upload task #01",
+            "description": "Auto generated step task",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Extract-Upload stats.Bounce into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.BounceDecrementQueue into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.Click into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.Complaint into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.Open into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.Unsubscribe into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #02",
+            "description": "Auto generated step task",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Extract-Upload Stats.RefererEmailClient into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload stats.Send into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload Stats.UserAgentApplication into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload Stats.UserAgentDevice into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload Stats.UserAgentEmailClient into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload Stats.UserAgentOperatingSystem into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #03",
+            "description": "Auto generated step task",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127._MobileMessageTracking into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127._PushTag into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003815._PushTag into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003879._PushTag into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.Asset into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.PushApplicationConfig into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #04",
+            "description": "Auto generated step task",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.PSConfig into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ProgramActivityInstance into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ProgramInstance into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload InteractionStudio.Activity into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload InteractionStudio.DefinitionInfo into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload InteractionStudio.EventDefinition into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload InteractionStudio.EventInstance into S3",
+                    "displayOrder": 7,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #05",
+            "description": "Auto generated step task",
+            "step": 5,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127._MobileMessage into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ABTestSend into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ABTestSendJob into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.CampaignAsset into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.CampaignAssetType into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.CustomObject into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.JobCampaignDefinition into S3",
+                    "displayOrder": 7,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.Program into S3",
+                    "displayOrder": 8,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SendGroup into S3",
+                    "displayOrder": 9,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SendJob into S3",
+                    "displayOrder": 10,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SimpleTag into S3",
+                    "displayOrder": 11,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SimpleTagObject into S3",
+                    "displayOrder": 12,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SimpleTagObjectType into S3",
+                    "displayOrder": 13,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblJobs_Surveys into S3",
+                    "displayOrder": 14,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblJobSubscriberBatch into S3",
+                    "displayOrder": 15,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblSurveyAnswers into S3",
+                    "displayOrder": 16,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.TriggeredSendJob into S3",
+                    "displayOrder": 17,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload InteractionStudio.Definition into S3",
+                    "displayOrder": 18,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #06",
+            "description": "Auto generated step task",
+            "step": 6,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.SmsMemberSharedShortCode_Config into S",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.SmsMemberShortCodeDistinct into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ABTestSendType into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.CampaignDefinition into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.ImpressionRegion into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.JobImpressionRegion into S3",
+                    "displayOrder": 6,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.Members_ into S3",
+                    "displayOrder": 7,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SendSplit into S3",
+                    "displayOrder": 8,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblJobs into S3",
+                    "displayOrder": 9,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblJobs_Lists into S3",
+                    "displayOrder": 10,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblJobs_URLs into S3",
+                    "displayOrder": 11,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblSurveyQuestions into S3",
+                    "displayOrder": 12,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #07",
+            "description": "Auto generated step task",
+            "step": 7,
+            "activities": [
+                {
+                    "name": "Extract-Upload dbo.EmailSendDefinition into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.Send into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblEmails into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblLists into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #08",
+            "description": "Auto generated step task",
+            "step": 8,
+            "activities": [
+                {
+                    "name": "Extract-Upload dbo.EnterpriseMember into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.MemberTimeZone into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.SendDefType into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.tblMembers into S3",
+                    "displayOrder": 4,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload dbo.TimeZoneDetail into S3",
+                    "displayOrder": 5,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring extract-upload task #09",
+            "description": "Auto generated step task",
+            "step": 9,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_ExportDone into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "TRANSFER_SENDLOG_DATA",
+    "customerKey": "f2ddbd22-6c34-4d1f-975e-44b9d136d9f7",
+    "createdDate": "2021-04-21T10:40:19.85",
+    "modifiedDate": "2021-04-21T10:40:19.85",
+    "fileSpec": "SendLog_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Logs"
+}

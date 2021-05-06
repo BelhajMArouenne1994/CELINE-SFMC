@@ -1,0 +1,16 @@
+{
+    "name": "Audit_Trail_Access_File_Transfer",
+    "customerKey": "37af9632-4d81-42d8-87f5-53ac226cd45b",
+    "createdDate": "2021-05-04T07:30:00.857",
+    "modifiedDate": "2021-05-04T07:30:00.857",
+    "fileSpec": "Audit_Trail_Access_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "Audit_Trail"
+}

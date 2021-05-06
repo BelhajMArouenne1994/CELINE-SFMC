@@ -1,0 +1,11 @@
+{
+    "name": "SQL_DATA_SYNC_ACCOUNT_1",
+    "key": "dcbf67c1-b278-46b5-99ab-4ef2cf77c7f8",
+    "description": "",
+    "targetKey": "9AC9B657-BE73-47CF-B6F3-C9083565847E",
+    "createdDate": "2021-03-12T10:26:01.25",
+    "modifiedDate": "2021-03-18T09:10:21.737",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,31 @@
+{
+    "customerKey": "5be5af9f-8d74-4963-b00c-5d3b66a32c64",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CODE_SNIPPET_EMAIL_FOOTER_TRANSLATION"
+    },
+    "name": "CODE_SNIPPET_EMAIL_FOOTER_TRANSLATION",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-18T13:43:22.187-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-30T07:43:02.75-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Code Snippets"
+}

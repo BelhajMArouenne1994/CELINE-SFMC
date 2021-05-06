@@ -1,0 +1,162 @@
+%%[
+/* Retrieving the the Email Code */
+VAR @emailCode
+SET @emailCode = __AdditionalEmailAttribute1
+
+/* Retrieving the Subscriber Key and Status, the Email Address and the Language */
+VAR @skey
+
+IF EMPTY(_subscriberkey) THEN
+SET @skey = ContactKey
+ELSE
+SET @skey = _subscriberkey
+ENDIF
+
+/* @found this variables is set tot true when a correspounding line is found in EMAIL FOUR IMAGES BLOCK TRANSLATION DE is found */
+VAR @found
+
+/* Retrieving the Language, the Region Main Store, the Address 1 Country of the Subscriber from the Main Data Extension Contacts */
+VAR @language, @regionMainStore, @country, @province
+
+VAR @rows
+SET @rows = LookupRows("Contacts", "ContactKey", @skey)
+IF Rowcount(@rows) > 0 THEN
+VAR @row
+SET @row = Row(@rows, 1)
+SET @language = Field(@row, "Language")
+SET @regionMainStore = Field(@row, "Region Main Store")
+SET @country = Field(@row, "Address 1 Country")
+SET @nationality = Field(@row, "Nationality")
+SET @countryMainStore = Field(@row, "Country Main Store")
+SET @city = Field(@row, "Address 1 City")
+SET @province = Field(@row, "Address 1 State Province")
+/* For Proofing we need to get the variables from the Proof Data Extension not from the Contacts DE, because we do not have the same subscribers keys*/
+ELSE
+SET @rows = LookupRows(_DataSourceName , "ContactKey", @skey)
+IF Rowcount(@rows) > 0 THEN
+VAR @row
+SET @row = Row(@rows, 1)
+SET @language = Field(@row, "Language")
+SET @regionMainStore = Field(@row, "Region Main Store")
+SET @country = Field(@row, "Address 1 Country")
+SET @nationality = Field(@row, "Nationality")
+SET @countryMainStore = Field(@row, "Country Main Store")
+SET @city = Field(@row, "Address 1 City")
+SET @province = Field(@row, "Address 1 State Province")
+ENDIF
+ENDIF
+
+/* Searching Text Blocks From Translation Data Extension EMAIL FOUR IMAGES BLOCK TRANSLATION */
+
+VAR @visualImage_1, @visualImageLink_1, @visualImage_2, @visualImageLink_2, @visualImage_3, @visualImageLink_3, @visualImage_4, @visualImageLink_4
+
+VAR @hawaiValue_1, @hawaiValue_1
+SET @hawaiValue_1 = "HAWAI"
+SET @hawaiValue_2 = "HONULULU"
+
+IF (IndexOf(Uppercase(@city),@hawaiValue_1) > 0 OR IndexOf(Uppercase(@city),@hawaiValue_2) > 0 OR IndexOf(Uppercase(@province),@hawaiValue_1) > 0 OR IndexOf(Uppercase(@province),@hawaiValue_2) > 0 OR @countryMainStore=="US006") THEN
+
+VAR @rows
+SET @rows = LookupRows("EMAIL FOUR IMAGES BLOCK TRANSLATION", "Email Code", @emailCode, "Language", "EN", "Region Main Store", "US", "Country", "HAWAII")
+
+IF Rowcount(@rows) > 0 THEN
+SET @found = "true"
+
+VAR @rowSelected
+SET @rowSelected = Row(@rows, 1)
+
+SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+ENDIF
+
+ELSEIF (NOT EMPTY(@language) AND NOT EMPTY(@regionMainStore) AND NOT EMPTY(@country)) THEN
+VAR @rows
+SET @rows = LookupRows("EMAIL FOUR IMAGES BLOCK TRANSLATION", "Email Code", @emailCode, "Language", @language, "Region Main Store", @regionMainStore, "Country", @country)
+
+IF Rowcount(@rows) > 0 THEN
+
+SET @found = "true"
+
+VAR @rowSelected
+SET @rowSelected = Row(@rows, 1)
+
+SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+ENDIF
+ENDIF
+
+IF @language=="EN" AND NOT EMPTY(@regionMainStore) AND @found != "true" THEN
+VAR @rows
+SET @rows = LookupRows("EMAIL FOUR IMAGES BLOCK TRANSLATION", "Email Code", @emailCode, "Language", @language, "Region Main Store", @regionMainStore, "Country", "Default")
+IF Rowcount(@rows) > 0 THEN
+SET @found = "true"
+
+VAR @rowSelected
+SET @rowSelected = Row(@rows, 1)
+
+SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+ENDIF
+ENDIF
+
+IF (@language=="EN" OR @language=="FR" OR @language=="ES" OR @language=="CHT" OR @language=="CHS" OR @language=="JP" OR @language=="DE" OR @language=="IT") AND @found != "true" THEN
+VAR @rows
+SET @rows = LookupRows("EMAIL FOUR IMAGES BLOCK TRANSLATION", "Email Code", @emailCode, "Language", @language, "Region Main Store", "Default", "Country", "Default")
+
+IF Rowcount(@rows) > 0 THEN
+SET @found = "true"
+
+VAR @rowSelected
+SET @rowSelected = Row(@rows, 1)
+
+SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+ENDIF
+ENDIF
+
+IF @found != "true" THEN
+
+VAR @rows
+SET @rows = LookupRows("EMAIL FOUR IMAGES BLOCK TRANSLATION", "Email Code", @emailCode, "Language", "Default", "Region Main Store", "Default", "Country", "Default")
+
+IF Rowcount(@rows) > 0 THEN
+
+VAR @rowSelected
+SET @rowSelected = Row(@rows, 1)
+
+SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+ENDIF
+ENDIF
+
+]%%

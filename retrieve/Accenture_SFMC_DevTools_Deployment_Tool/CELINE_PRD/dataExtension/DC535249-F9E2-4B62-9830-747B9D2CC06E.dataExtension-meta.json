@@ -1,0 +1,51 @@
+{
+    "CreatedDate": "2021-03-20T04:36:17.113",
+    "CustomerKey": "DC535249-F9E2-4B62-9830-747B9D2CC06E",
+    "Name": "EMAIL_SUBJECT_PREHEADER_TRANSLATION",
+    "Description": "This Data Extension contains Preheaders and Subjects used in Email Template based on different Languages",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Language",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Subject",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Preheader",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Mirror Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Translation Tables"
+}

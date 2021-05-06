@@ -1,0 +1,49 @@
+%%[
+/* Retrieving the Subscriber Key and the Language */
+VAR @skey, @preheader, @subject
+
+IF EMPTY(_subscriberkey) THEN
+    SET @skey = ContactKey
+ELSE
+    SET @skey = _subscriberkey
+ENDIF
+
+
+/* Retrieving the Language of the Subscriber from the Main Data Extension Contacts */
+VAR @language
+
+VAR @rows 
+SET @rows = LookupRows("Contacts", "ContactKey", @skey)
+
+IF Rowcount(@rows) > 0 THEN
+    VAR @row
+    SET @row = Row(@rows, 1)
+    SET @language = Field(@row, "Language")
+ENDIF
+
+
+/* Retrieving the Language of the Subscriber from the Data Extension EMAIL_SUBJECT_PREHEADER_TRANSLATION */
+IF NOT EMPTY(@language) THEN
+
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_SUBJECT_PREHEADER_TRANSLATION", "Language", @language)
+    
+    VAR @rowSelected
+    SET @rowSelected = Row(@rows, 1)
+    
+    SET @preheader = Field(@rowSelected, "Preheader")
+    SET @subject = Field(@rowSelected, "Subject")
+ELSE
+
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_SUBJECT_PREHEADER_TRANSLATION", "Language", "Default")
+    
+    VAR @rowSelected
+    SET @rowSelected = Row(@rows, 1)
+    
+    SET @preheader = Field(@rowSelected, "Preheader")
+    SET @subject = Field(@rowSelected, "Subject")
+
+ENDIF
+
+]%%

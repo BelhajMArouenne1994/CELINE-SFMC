@@ -1,0 +1,28 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper mobile-hidden"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper mobile-hidden camarker-inner"><div style="display:none">
+%%=ContentBlockByName("Content Builder\TEMPLATE_BLOCKS\CODE SNIPPETS\CODE_SNIPPET_EMAIL_SOCIAL_MEDIA_LINKS_TRANSLATION")=%%
+%%[
+VAR @align
+IF NOT EMPTY(__AdditionalEmailAttribute2) THEN
+  SET @align = __AdditionalEmailAttribute2
+ELSE
+ SET @align = "justify"
+ENDIF
+]%%
+</div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="w100v">
+  <tr>
+    <td>
+      <table width="800" cellpadding="0" cellspacing="0" border="0" align="center" class="w100v">
+        <tr>
+          <td align="%%=v(@align)=%%" valign="top" style="padding-left:50px;padding-right:50px;padding-bottom:20px;font-family:Arial,sans-serif;font-size:10px;color:#000000;" class="pad-lr fs225v">
+            <a href="%%=RedirectTo(@socialMediaLink_1)=%%" target="_blank" style="color:#000000;text-decoration:none;">%%=v(@socialMediaText_1)=%%</a>&nbsp;&nbsp;
+            <a href="%%=RedirectTo(@socialMediaLink_2)=%%" target="_blank" style="color:#000000;text-decoration:none;">%%=v(@socialMediaText_2)=%%</a>&nbsp;&nbsp;
+            <a href="%%=RedirectTo(@socialMediaLink_3)=%%" target="_blank" style="color:#000000;text-decoration:none;">%%=v(@socialMediaText_3)=%%</a>&nbsp;&nbsp;
+            <a href="%%=RedirectTo(@socialMediaLink_4)=%%" target="_blank" style="color:#000000;text-decoration:none;">%%=v(@socialMediaText_4)=%%</a>&nbsp;&nbsp;
+            <a href="%%=RedirectTo(@socialMediaLink_5)=%%" target="_blank" style="color:#000000;text-decoration:none;">%%=v(@socialMediaText_5)=%%</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table></td></tr></table>

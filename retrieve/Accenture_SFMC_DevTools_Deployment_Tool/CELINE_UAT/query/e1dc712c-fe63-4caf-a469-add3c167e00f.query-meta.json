@@ -1,0 +1,11 @@
+{
+    "name": "Retrieve_Contacts",
+    "key": "e1dc712c-fe63-4caf-a469-add3c167e00f",
+    "description": "",
+    "targetKey": "9AC9B657-BE73-47CF-B6F3-C9083565847E",
+    "createdDate": "2021-03-11T02:58:37.437",
+    "modifiedDate": "2021-04-28T08:58:54.947",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

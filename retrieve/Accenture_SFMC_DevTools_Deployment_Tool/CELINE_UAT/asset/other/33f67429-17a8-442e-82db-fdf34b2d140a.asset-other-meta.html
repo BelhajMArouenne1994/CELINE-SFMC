@@ -1,0 +1,56 @@
+%%[
+/* Retrieving the Subscriber Key and Status and the Language */
+VAR @skey, @regionMainStore
+SET @skey = _subscriberkey
+
+/* Retrieving the Language of the Subscriber from the Main Data Extension */
+VAR @rows 
+SET @rows = LookupRows("Contacts", "ContactKey", @skey)
+IF Rowcount(@rows) > 0 THEN
+    VAR @row
+    SET @row = Row(@rows, 1)
+    SET @regionMainStore = Field(@row, "Region Main Store")
+ENDIF
+
+/* Searching Text Blocks From Translation Data Extension EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION */
+
+VAR @visualImage_1, @visualImageLink_1, @visualImage_2, @visualImageLink_2, @visualImage_3, @visualImageLink_3, @visualImage_4, @visualImageLink_4
+
+IF NOT EMPTY(@regionMainStore) THEN
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION", "Region Main Store", @regionMainStore)
+    
+    IF Rowcount(@rows) > 0 THEN
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+        
+        SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+        SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+        SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+        SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+        SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+        SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+        SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+        SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+    ENDIF
+    
+ELSE
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION", "Region Main Store", "Default")
+
+    IF Rowcount(@rows) > 0 THEN
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+        
+        SET @visualImage_1 = Field(@rowSelected, "Visual Image 1")
+        SET @visualImageLink_1 = Field(@rowSelected, "Visual Image 1 Link")
+        SET @visualImage_2 = Field(@rowSelected, "Visual Image 2")
+        SET @visualImageLink_2 = Field(@rowSelected, "Visual Image 2 Link")
+        SET @visualImage_3 = Field(@rowSelected, "Visual Image 3")
+        SET @visualImageLink_3 = Field(@rowSelected, "Visual Image 3 Link")
+        SET @visualImage_4 = Field(@rowSelected, "Visual Image 4")
+        SET @visualImageLink_4 = Field(@rowSelected, "Visual Image 4 Link")
+    ENDIF
+ENDIF
+
+]%%

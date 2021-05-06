@@ -1,0 +1,39 @@
+{
+    "name": "EXTRACT_ALL_SUBSCRIBERS_LIST_UPDATES",
+    "key": "294E304D-617F-4839-94D1-A6655D5CAA37",
+    "fileSpec": "All_Subscribers_List_Update_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-04-09T08:46:44.16",
+    "modifiedDate": "2021-04-11T04:03:37.02",
+    "createdBy": 710172526,
+    "modifiedBy": 710172526,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ";"
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "6985DFB6-167D-4427-AF4B-D23903B8BA39"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "True"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

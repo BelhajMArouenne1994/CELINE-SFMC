@@ -1,0 +1,66 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none">
+  %%[
+/* Retrieving the Subscriber Key and Region Main Store */
+VAR @skey
+
+IF EMPTY(_subscriberkey) THEN
+    SET @skey = ContactKey
+ELSE
+    SET @skey = _subscriberkey
+ENDIF
+
+/* Retrieve subscriber's Region Main Store from the population */
+VAR @region_Main_Store
+VAR @reply_email_address
+VAR @reply_email_name
+VAR @country
+VAR @rows 
+
+SET @rows = LookupRows("Contacts", "ContactKey", @skey)
+IF Rowcount(@rows) > 0 THEN
+    VAR @row
+    SET @row = Row(@rows, 1)
+    SET @region_Main_Store = Field(@row, "Region Main Store")
+    SET @country = Field(@row, "Address 1 Country")
+ELSE
+      SET @rows = LookupRows(_DataSourceName , "ContactKey", @skey)
+      IF Rowcount(@rows) > 0 THEN
+        VAR @row
+        SET @row = Row(@rows, 1)
+        SET @region_Main_Store = Field(@row, "Region Main Store")
+        SET @country = Field(@row, "Address 1 Country")
+    ENDIF
+ENDIF
+
+/*SET Client Service email Address and Name according to the subscriber Region Main Store and Country*/
+IF (((@country=="CAN") AND (@region_Main_Store=="US")) OR ((@country=="GBR") AND (@region_Main_Store=='EUR'))) THEN
+  SET @reply_email_address = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Address","Region Main Store", @region_Main_Store,"Country",@country)
+  SET @reply_email_name = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Name","Region Main Store", @region_Main_Store,"Country",@country)  
+ELSEIF (((@region_Main_Store=="US") AND (@country!="CAN")) OR ((@region_Main_Store=="EUR") AND (@country!="GBR")))  THEN
+  SET @reply_email_address = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Address","Region Main Store", @region_Main_Store,"Country","DEFAULT")
+  SET @reply_email_name = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Name","Region Main Store", @region_Main_Store,"Country","DEFAULT")    
+ELSEIF ((@region_Main_Store!="APAC") AND (@region_Main_Store!="CN") AND (@region_Main_Store!="JPN") AND (@region_Main_Store!="MDE")) THEN
+  SET @reply_email_address = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Address","Region Main Store", "EUR","Country","DEFAULT")
+  SET @reply_email_name = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Name","Region Main Store", "EUR","Country","DEFAULT")    
+ELSE
+    SET @reply_email_address = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Address","Region Main Store", @region_Main_Store,"Country","DEFAULT")
+    SET @reply_email_name = Lookup("REPLY_MAIL_MANAGEMENT","Reply Email Name","Region Main Store", @region_Main_Store,"Country","DEFAULT")    
+
+ENDIF
+    
+]%%
+  
+</div>
+Reply Email Name: %%=v(@reply_email_name)=%% <br>
+Reply Email Address: %%=v(@reply_email_address)=%% <br><br><br>
+
+ContactKey: %%ContactKey%% <br>
+Region Main Store: %%Region Main Store%% <br>
+Address 1 Country: %%Address 1 Country%% <br>
+Language: %%Language%% <br><br><br>
+
+Country Main Store: %%Country Main Store%% <br>
+Address 1 State Province: %%Address 1 State Province%% <br>
+Address 1 City: %%Address 1 City%% <br><br><br>
+
+</td></tr></table>

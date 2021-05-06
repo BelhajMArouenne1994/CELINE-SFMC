@@ -1,0 +1,30 @@
+{
+    "name": "IMPORT_EMAIL_HERO_IMAGE_AND_CTA_TRANSLAION",
+    "description": "",
+    "key": "9c2c4de5-473f-2dc4-79e2-2e04ca91ff44",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 2,
+        "fileNamingPattern": "EMAIL_HERO_IMAGE_AND_CTA-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_HERO_IMAGE_AND_CTA_TRANSLATION",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}

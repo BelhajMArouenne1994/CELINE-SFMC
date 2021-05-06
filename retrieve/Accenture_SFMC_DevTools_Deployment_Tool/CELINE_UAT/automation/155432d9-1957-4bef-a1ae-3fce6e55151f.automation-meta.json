@@ -1,0 +1,44 @@
+{
+    "name": "Archive Audit Trail Access Automation",
+    "description": "",
+    "key": "155432d9-1957-4bef-a1ae-3fce6e55151f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Audit_Trail_Access_Extract",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Audit_Trail_Access_File_Transfer",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "IMPORT_AUDIT_TRAIL_ACESS_LOG",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Audit Trail"
+}

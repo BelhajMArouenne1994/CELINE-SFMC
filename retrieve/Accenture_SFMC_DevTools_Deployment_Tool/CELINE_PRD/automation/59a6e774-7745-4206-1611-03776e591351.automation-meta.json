@@ -1,0 +1,29 @@
+{
+    "name": "DATA_SYNC_ACCOUNT_1",
+    "description": "",
+    "key": "59a6e774-7745-4206-1611-03776e591351",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-04-13T03:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "SQL_DATA_SYNC_ACCOUNT_1",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Data Sync"
+}

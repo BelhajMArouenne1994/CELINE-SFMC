@@ -1,0 +1,16 @@
+{
+    "name": "TRANSFER RESUBSCRIPTIONS",
+    "customerKey": "fbb51b65-85be-4d7a-a5c9-ede1c43afe02",
+    "createdDate": "2021-02-25T15:05:33.72",
+    "modifiedDate": "2021-04-02T10:10:28.167",
+    "fileSpec": "Resubscriptions_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

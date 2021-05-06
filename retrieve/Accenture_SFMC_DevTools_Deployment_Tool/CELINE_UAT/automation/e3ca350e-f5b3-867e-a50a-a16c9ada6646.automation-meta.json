@@ -1,0 +1,30 @@
+{
+    "name": "IMPORT_EMAIL_SUBJECT_PREHEADER_TRANSLATION",
+    "description": "",
+    "key": "e3ca350e-f5b3-867e-a50a-a16c9ada6646",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "EMAIL_SUBJECT_PREHEADER-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_SUBJECT_PREHEADER",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}

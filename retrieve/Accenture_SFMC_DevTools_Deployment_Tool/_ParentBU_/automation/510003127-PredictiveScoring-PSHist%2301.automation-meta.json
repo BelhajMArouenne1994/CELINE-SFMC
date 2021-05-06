@@ -1,0 +1,155 @@
+{
+    "name": "CELINE MAIN-50233-510003127-PSHist#01",
+    "description": "This automation sends HISTORICAL data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+    "key": "510003127-PredictiveScoring-PSHist#01",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "Predictive Scoring historical #01 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#01 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#01 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#01 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #02 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#02 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#02 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#02 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #03 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#03 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#03 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#03 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #04 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#04 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#04 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#04 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #05 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 5,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#05 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#05 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#05 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #06 extract-upload task",
+            "description": "Auto generated step task",
+            "step": 6,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Click_H#06 into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Open_H#06 into S3",
+                    "displayOrder": 2,
+                    "r__type": "dataFactoryUtility"
+                },
+                {
+                    "name": "Extract-Upload C510003127.VPS_stats_Send_H#06 into S3",
+                    "displayOrder": 3,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        },
+        {
+            "name": "Predictive Scoring historical #S_ExportDo extract-upload task",
+            "description": "Auto generated step task",
+            "step": 7,
+            "activities": [
+                {
+                    "name": "Extract-Upload C510003127.VPS_ExportDone_Hist_Email into S3",
+                    "displayOrder": 1,
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,58 @@
+{
+    "allowErrors": true,
+    "customerKey": "011CE024-C901-4380-8750-195ABBF6477B",
+    "createdDate": "2021-03-12T09:31:09.01",
+    "modifiedDate": "2021-04-12T03:54:31.93",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "IdClient",
+            "destinationFieldName": "Account Id"
+        },
+        {
+            "sourceFieldName": "Email",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "FirstBounces",
+            "destinationFieldName": "First Bounce Text"
+        },
+        {
+            "sourceFieldName": "FirstOptout",
+            "destinationFieldName": "First Opt Out Text"
+        },
+        {
+            "sourceFieldName": "Lastclickdate",
+            "destinationFieldName": "Last Click Date Text"
+        },
+        {
+            "sourceFieldName": "LastOpenDate",
+            "destinationFieldName": "Last Open Date Text"
+        },
+        {
+            "sourceFieldName": "LastSendDate",
+            "destinationFieldName": "Last Send Date Text"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "exportForSFMC-FULL-18-02-2021.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_DATA_CHEETAH",
+    "notificationEmailAddress": "support.salesforce.sfmc@celine.fr",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "D3B8C4C5-DD8B-4521-B4A0-08D3BB6A297A",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

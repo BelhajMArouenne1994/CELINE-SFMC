@@ -1,0 +1,11 @@
+{
+    "name": "QUERY_UNDELIVERABLE_STATUS_24_DE",
+    "key": "1d7a0f7e-9835-4b1f-ac25-4253d8313282",
+    "description": "",
+    "targetKey": "94C742DE-523E-4A62-8066-C99C2C88C48D",
+    "createdDate": "2021-04-01T08:08:52.58",
+    "modifiedDate": "2021-04-06T07:03:41.4",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/UNSUBSCRIBES/UNDELIVERABLE STATUS"
+}

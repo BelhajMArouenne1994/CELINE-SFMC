@@ -1,0 +1,39 @@
+{
+    "name": "EXPORT_SENDLOGS_DATA",
+    "description": "",
+    "key": "52252217-bf26-9aac-7187-ac7f36279298",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-04-22T00:00:00",
+        "endDate": "2021-04-22T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "EXTRACT_SENDLOGS",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "TRANSFER_SENDLOG_DATA",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Exports"
+}

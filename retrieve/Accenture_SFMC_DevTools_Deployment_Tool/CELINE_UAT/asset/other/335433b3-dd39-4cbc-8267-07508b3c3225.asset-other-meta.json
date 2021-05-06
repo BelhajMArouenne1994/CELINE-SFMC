@@ -1,0 +1,31 @@
+{
+    "customerKey": "335433b3-dd39-4cbc-8267-07508b3c3225",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CELINE Store Manager Reply Address Manual"
+    },
+    "name": "CELINE Store Manager REPLY Address Manual",
+    "owner": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "createdDate": "2021-04-23T10:16:09.217-06:00",
+    "createdBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "modifiedDate": "2021-04-23T10:18:55.097-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/CELINE Store Manager Text Only Template Manual/Code Snippets"
+}

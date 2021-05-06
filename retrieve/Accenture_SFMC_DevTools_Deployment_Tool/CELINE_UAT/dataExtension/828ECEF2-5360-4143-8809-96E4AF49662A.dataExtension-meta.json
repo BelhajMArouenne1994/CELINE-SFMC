@@ -1,0 +1,80 @@
+{
+    "CreatedDate": "2021-04-08T00:57:05.593",
+    "CustomerKey": "828ECEF2-5360-4143-8809-96E4AF49662A",
+    "Name": "EMAIL HERO IMAGE AND CTA TRANSLATION",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email Code",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region Main Store",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Language",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual CTA Line Text",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual CTA Link",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/TRANSALATION TABLES"
+}

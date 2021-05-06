@@ -1,0 +1,82 @@
+{
+    "allowErrors": true,
+    "customerKey": "CEDE5F88-4972-483E-BA5A-FDFF8C987E26",
+    "createdDate": "2021-04-26T04:09:57.81",
+    "modifiedDate": "2021-05-03T06:05:12.59",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "CreatedDate"
+        },
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "EID"
+        },
+        {
+            "sourceFieldOrdinal": 5,
+            "destinationFieldName": "EmployeeID"
+        },
+        {
+            "sourceFieldOrdinal": 6,
+            "destinationFieldName": "EmployeeName"
+        },
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "MID"
+        },
+        {
+            "sourceFieldOrdinal": 11,
+            "destinationFieldName": "ObjectID"
+        },
+        {
+            "sourceFieldOrdinal": 12,
+            "destinationFieldName": "ObjectName"
+        },
+        {
+            "sourceFieldOrdinal": 7,
+            "destinationFieldName": "ObjectTypeID"
+        },
+        {
+            "sourceFieldOrdinal": 8,
+            "destinationFieldName": "ObjectTypeName"
+        },
+        {
+            "sourceFieldOrdinal": 9,
+            "destinationFieldName": "OperationID"
+        },
+        {
+            "sourceFieldOrdinal": 10,
+            "destinationFieldName": "OperationName"
+        },
+        {
+            "sourceFieldOrdinal": 13,
+            "destinationFieldName": "TransactionID"
+        },
+        {
+            "sourceFieldOrdinal": 4,
+            "destinationFieldName": "UserID"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "Audit_Trail_Activity_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_AUDIT_TRAIL_ACTIVITY_LOG",
+    "notificationEmailAddress": "amal.bahrini-ext@celine.fr",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 9,
+    "r__ftpLocation_name": "Audit_Trail",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "13434F36-2488-4F2B-88D3-5C0DEBB3E825",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Add"
+}

@@ -1,0 +1,46 @@
+{
+    "allowErrors": true,
+    "customerKey": "57D19314-B721-461F-ADE8-BCF904E39086",
+    "createdDate": "2021-04-02T07:38:12.117",
+    "modifiedDate": "2021-04-13T02:32:12.18",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "ContactKey"
+        },
+        {
+            "sourceFieldName": "DateHeld",
+            "destinationFieldName": "Date Held"
+        },
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "Status",
+            "destinationFieldName": "Status"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "Subscribers.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT UNDELIVERABLE STATUS",
+    "notificationEmailAddress": "support.salesforce.sfmc@celine.fr",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "6C4EA761-B1A8-4B04-8D98-4B71B1713717",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Contacts Sync",
+    "key": "35f74def-2922-4ec6-8f85-e442af2b4563",
+    "description": "This SQL Query poplates the Principal Data Extension Contacts.",
+    "targetKey": "9AC9B657-BE73-47CF-B6F3-C9083565847E",
+    "createdDate": "2021-03-12T03:57:47.403",
+    "modifiedDate": "2021-03-18T08:47:30.18",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Data Sync"
+}

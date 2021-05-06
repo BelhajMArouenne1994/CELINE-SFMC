@@ -1,0 +1,11 @@
+{
+    "name": "Populate Account Salesforce DE",
+    "key": "cd79f942-f694-4e6c-9ae7-45fdf8f191d9",
+    "description": "",
+    "targetKey": "99D72C9C-5601-4917-8AC1-5D53FDD711B7",
+    "createdDate": "2021-03-10T05:52:40.423",
+    "modifiedDate": "2021-03-10T05:52:40.423",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

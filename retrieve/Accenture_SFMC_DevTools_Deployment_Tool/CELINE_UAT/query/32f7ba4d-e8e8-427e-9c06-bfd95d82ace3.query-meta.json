@@ -1,0 +1,11 @@
+{
+    "name": "UPDATE_ALL_SUBSCRIBERS_LIST_DE_QUERY",
+    "key": "32f7ba4d-e8e8-427e-9c06-bfd95d82ace3",
+    "description": "",
+    "targetKey": "6985DFB6-167D-4427-AF4B-D23903B8BA39",
+    "createdDate": "2021-04-10T07:48:29.09",
+    "modifiedDate": "2021-04-10T08:12:03.94",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

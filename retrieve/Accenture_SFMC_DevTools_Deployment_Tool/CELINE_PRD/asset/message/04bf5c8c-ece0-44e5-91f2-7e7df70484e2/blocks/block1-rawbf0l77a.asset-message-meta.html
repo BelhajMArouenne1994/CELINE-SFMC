@@ -1,0 +1,35 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none">
+  
+%%=ContentBlockByName("Content Builder\TEMPLATE_BLOCKS\CODE SNIPPETS\CODE_SNIPPET_EMAIL_HERO_IMAGE_AND_CTA_TRANSLATION")=%%
+%%[
+VAR @align
+IF NOT EMPTY(__AdditionalEmailAttribute2) THEN
+  SET @align = __AdditionalEmailAttribute2
+ELSE
+ SET @align = "justify"
+ENDIF
+]%%
+</div>  
+<table class="w100v" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td>
+      <table class="w100v" width="800" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+          <td style="padding-left:50px;padding-right:50px;padding-bottom:50px;font-family:Arial,sans-serif;font-size:15px;color:#000000;" class="pad-lr fs3v" valign="top" align="%%=v(@align)=%%">
+            <a href="%%=RedirectTo(@visualImageLink)=%%" target="_blank">
+              <img src="%%=v(@visualImage)=%%" ;="" style="display: block;" alt="" class="w100v" width="800" border="0">
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table class="w100v" width="800" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tr>
+          <td style="padding-left:50px;padding-right:50px;padding-bottom:50px;font-family:Arial,sans-serif;font-size:15px;color:#000000;" class="pad-lr fs3v" valign="top" align="%%=v(@align)=%%">
+            <a href="%%=RedirectTo(@visualCTALink)=%%" target="_blank" style="color:#000000;text-decoration:none;">
+              %%=v(@visualCTALineText_1)=%%</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table></td></tr></table>

@@ -1,0 +1,88 @@
+{
+    "CreatedDate": "2021-03-18T13:11:06.147",
+    "CustomerKey": "7E410AE0-BB38-46A8-83DE-707FD908030B",
+    "Name": "EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Region Main Store",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 1",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 1 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 2",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 2 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 3",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 3 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 4",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Visual Image 4 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Translation Tables"
+}

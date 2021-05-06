@@ -1,0 +1,248 @@
+{
+    "CreatedDate": "2021-03-19T09:19:37.737",
+    "CustomerKey": "2596EEE1-B892-4A2E-89CD-74FFBB16BAB4",
+    "Name": "EMAIL_FOOTER_TRANSLATION",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Language",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region Main Store",
+            "DefaultValue": "",
+            "MaxLength": "1300",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Nationality",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country Main Store",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 1 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 1 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 2 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 2 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 3 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 3 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 4 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Line 4 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Link",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Privacy Policy Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Privacy Policy Link",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Legal Mention Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CSC Email Address",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Unsubscribe Text",
+            "DefaultValue": "",
+            "MaxLength": "3000",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "City",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Translation Tables"
+}

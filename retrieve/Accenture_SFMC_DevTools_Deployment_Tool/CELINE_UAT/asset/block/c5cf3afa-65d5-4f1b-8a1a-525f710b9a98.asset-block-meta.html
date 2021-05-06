@@ -1,0 +1,11 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none">
+    %%=ContentBlockByName("Content Builder\TEMPLATE_BLOCKS\CODE SNIPPETS\CODE_SNIPPET_EMAIL_SUBJECT_PREHEADER")=%%
+    %%[
+    VAR @align
+    IF NOT EMPTY(__AdditionalEmailAttribute2) THEN
+    SET @align = __AdditionalEmailAttribute2
+    ELSE
+    SET @align = "justify"
+    ENDIF
+    ]%%
+</div></td></tr></table>

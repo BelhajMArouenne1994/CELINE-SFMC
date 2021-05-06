@@ -1,0 +1,50 @@
+{
+    "name": "Archive Audit Trail Activity Automation",
+    "description": "Archiving Audit Trail Automation",
+    "key": "bd5fdff6-4247-8834-5797-00218e29b424",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-05-01T01:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Audit_Trail_Activity_Extract",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "Audit_Trail_Activity_File_Transfer",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "IMPORT_AUDIT_TRAIL_ACTIVITY_LOG",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Audit Trail"
+}

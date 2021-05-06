@@ -1,0 +1,2224 @@
+{
+    "customerKey": "fd73c8b7-028d-430e-acb2-32ac069277dd",
+    "contentType": "application/vnd.etmc.email.Message; kind=template",
+    "assetType": {
+        "name": "templatebasedemail",
+        "displayName": "Template-Based Email"
+    },
+    "name": "test",
+    "description": "",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-17T04:55:07.12-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-17T04:55:34.793-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "template": {
+                "background-color": "#FFFFFF",
+                "border-color": "",
+                "border-width": "0px",
+                "border-style": "solid"
+            },
+            "body": {
+                "background-color": "#333333",
+                "font-family": "Arial",
+                "font-size": "16px",
+                "color": "#939598",
+                "line-height": 1.5,
+                "padding": "0px 20px 20px",
+                "font-weight": "normal",
+                "font-style": "normal",
+                "content-padding-top": "0px",
+                "content-padding-right": "0px",
+                "content-padding-bottom": "0px",
+                "content-padding-left": "0px"
+            },
+            "h1": {
+                "font-family": "Arial",
+                "font-size": "28px",
+                "color": "#76C785",
+                "line-height": 1.15,
+                "font-style": "normal",
+                "font-weight": "bold",
+                "margin": "0"
+            },
+            "h2": {
+                "font-family": "Arial",
+                "font-size": "18px",
+                "color": "#76C785",
+                "line-height": 1.15,
+                "font-weight": "bold",
+                "font-style": "normal"
+            },
+            "h3": {
+                "font-family": "Arial",
+                "font-size": "18px",
+                "color": "#333333",
+                "line-height": 1.15,
+                "font-weight": "bold",
+                "font-style": "normal"
+            },
+            "links": {
+                "color": "#808080",
+                "text-decoration": "none"
+            },
+            "buttons": {
+                "font-family": "Arial",
+                "font-size": "18px",
+                "color": "#FFFFFF",
+                "background-color": "#76c785",
+                "border-radius": "8px",
+                "padding": "10px",
+                "border-color": "#76c785",
+                "border-width": "1px",
+                "border-style": "solid"
+            },
+            "mobile": {
+                "body": {
+                    "padding": "0px",
+                    "font-family": "Arial",
+                    "font-size": "16px",
+                    "color": "#939598",
+                    "line-height": 1.5
+                },
+                "h1": {
+                    "font-family": "Arial",
+                    "font-size": "28px",
+                    "color": "#76C785",
+                    "font-weight": "bold",
+                    "line-height": 1.15
+                },
+                "h2": {
+                    "font-family": "Arial",
+                    "font-size": "18px",
+                    "color": "#76C785",
+                    "line-height": 1.15,
+                    "font-weight": "bold"
+                },
+                "h3": {
+                    "font-family": "Arial",
+                    "font-size": "18px",
+                    "color": "#333333",
+                    "line-height": 1.15,
+                    "font-weight": "bold"
+                },
+                "buttons": {
+                    "font-family": "Arial",
+                    "font-size": "18px",
+                    "color": "#FFFFFF",
+                    "padding": "10px"
+                }
+            }
+        }
+    },
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "thumbnail": {},
+            "content": "nn",
+            "meta": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "preheader": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "html": {
+            "thumbnail": {},
+            "availableViews": [],
+            "slots": {
+                "e16dfg5ng4akq7nce889jgiudi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Content 2</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "46rmc6vjl9mtalb42aa89z4cxr": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #212121; border-top: 20px solid #333333; min-width: 100%; \" class=\"slot-styling\"><tr><td style=\"padding-right: 20px; padding-bottom: 20px; padding-left: 20px; \" class=\"slot-styling camarker-inner\"><div data-type=\"block\" data-key=\"4j9huk9tk55o9wqcqlwczkhuxr\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"nh4k9hc5bfd2z7x5071spds4i\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"kaelat7s740i7prddv5yfzuxr\" data-original-key=\"none\"></div></td></tr></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Footer</p>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {
+                                "background-color": "#212121",
+                                "border-top": "20px solid #333333",
+                                "padding-right": "20px",
+                                "padding-bottom": "20px",
+                                "padding-left": "20px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "blocks": {
+                        "kaelat7s740i7prddv5yfzuxr": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "20px",
+                                        "padding-bottom": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "nh4k9hc5bfd2z7x5071spds4i": {
+                            "assetType": {
+                                "id": 211,
+                                "name": "socialfollowblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"margin:15px auto; width:60px;height:60px;\"><img src=\"icon.png\"></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "4j9huk9tk55o9wqcqlwczkhuxr": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 30px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "30px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "jmoqvk0oozhtvjwvf68o20529": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "u0dfizn6y4vqb608koj7i7ldi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "v9c5fhe2d2spqkr52behwu3di": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"slot-styling\"><tbody><tr><td class=\"slot-styling camarker-inner\" width=\"100%\"><div data-type=\"block\" data-key=\"gsrwdqhkdl71v8f878ir7ldi\" data-original-key=\"none\"></div></td></tr></tbody></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Header</p>",
+                    "availableViews": [],
+                    "blocks": {
+                        "gsrwdqhkdl71v8f878ir7ldi": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock",
+                                "displayName": "Layout"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #FFFFFF; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 0,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": "60",
+                                                        "slot": "qdq9zxpmxkx17ipy1miqc9pb9"
+                                                    },
+                                                    {
+                                                        "width": 40,
+                                                        "slot": "dh2kot5hhgq2p0zp6xloumzpvi"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "background-color": "#FFFFFF",
+                                        "padding": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "qdq9zxpmxkx17ipy1miqc9pb9": {
+                                    "content": "<div data-type=\"block\" data-key=\"9dh2l0587ut7m7xlrdjhe61or\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "9dh2l0587ut7m7xlrdjhe61or": {
+                                            "contentType": "text/html",
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock",
+                                                "displayName": "Image Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "dh2kot5hhgq2p0zp6xloumzpvi": {
+                                    "content": "<div data-type=\"block\" data-key=\"0sbryr5v8r1kuhh47df9ksxlxr\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "0sbryr5v8r1kuhh47df9ksxlxr": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock",
+                                                "displayName": "Free Form Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 15px; padding-bottom: 15px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-top": "15px",
+                                                        "padding-bottom": "15px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "zi9vnmpuaenazq8h0ynzh0k9": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"slot-styling\"><tr><td class=\"slot-styling camarker-inner\" width=\"100%\"></td></tr></table>",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Content 2</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "yc15syqy9wnqwgizyxdmquxr": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "1y6x8a7ndxzwzwfyxcsb81tt9": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "lg4ocbprqhmc7gurqqf2sm7vi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "s384oh90zq5tfbj2ab5wxw29": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "e07panhjgpbgpo3bnqpjr4fgvi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "g4gyn0c6d6xifo9zyy6gpsyvi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "e5arbdxk7m8p3fafhogrxusor": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "k81tu2vws3e5eumxbh6wrvn29": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "ljo3302xdq82ts74nudcayvi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "0uhdcklaiougzucgezyoh9qkt9": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "yj500t1smccv6kj8qz0ejyvi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "8ecbdsx6eo9zavfznrgig4x6r": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "ivi3e9sa5znf8vzh4qtihpvi": {
+                    "content": "",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "9szgdt35w2s0in4xjmbm1v2t9": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"slot-styling\"><tbody><tr><td class=\"slot-styling camarker-inner\" width=\"100%\" style=\"padding-left: 10px;\"></td></tr></tbody></table>",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Left Content</p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "cgb67a4pbrwwbarm4scoqd7vi": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"slot-styling\"><tbody><tr><td class=\"slot-styling camarker-inner\" width=\"100%\" style=\"padding-right: 10px;\"></td></tr></tbody></table>",
+                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Right Content </p>",
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "mlm2g55zmxcjbai9jx5x3l3di": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"slot-styling\"><tr><td style=\"padding-right: 20px; padding-left: 20px; \" class=\"slot-styling camarker-inner\"><div data-type=\"block\" data-key=\"gs8ijpj29dvwkysiixpa2a9k9\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"auqg4mgfzm9e8wo4uftdsa714i\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"wo2vnql93i1o54epi6sjj1yvi\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"jl77chp5c8xx8ispr69od2t9\" data-original-key=\"none\"></div></td></tr></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Bottom Content</p>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {
+                                "padding-right": "20px",
+                                "padding-left": "20px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "blocks": {
+                        "auqg4mgfzm9e8wo4uftdsa714i": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "three_column",
+                                        "spacing": 10,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "aiw35ea5ohsl91xr99kqsq0k9"
+                                                    },
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "lj6bgdowcqkv1h78ag2nbfbt9"
+                                                    },
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "2p7du4igp53mgv8ro2x77dgqfr"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "20px",
+                                        "padding-bottom": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "aiw35ea5ohsl91xr99kqsq0k9": {
+                                    "content": "<div data-type=\"block\" data-key=\"0i0nl7rnnpp6pvcsg8gcpojemi\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "0i0nl7rnnpp6pvcsg8gcpojemi": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-bottom": "20px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "lj6bgdowcqkv1h78ag2nbfbt9": {
+                                    "content": "<div data-type=\"block\" data-key=\"viczn060ajxevdxz7yf09hpvi\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "viczn060ajxevdxz7yf09hpvi": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-bottom": "20px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "2p7du4igp53mgv8ro2x77dgqfr": {
+                                    "content": "<div data-type=\"block\" data-key=\"loz1s09d7sp5cwqt13euerk9\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "loz1s09d7sp5cwqt13euerk9": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "gs8ijpj29dvwkysiixpa2a9k9": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "40px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "jl77chp5c8xx8ispr69od2t9": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 40,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "bptd3o6ptjit9iqfwr17fd2t9"
+                                                    },
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "zcn9877o3nvd73h1byxbhuxr"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "20px",
+                                        "padding-bottom": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "bptd3o6ptjit9iqfwr17fd2t9": {
+                                    "content": "<div data-type=\"block\" data-key=\"ki6pvfhllb4aw3cheii6yldi\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"fkdsv1zm94xswgzlhc6es1c3di\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "ki6pvfhllb4aw3cheii6yldi": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock",
+                                                "displayName": "Text Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "fkdsv1zm94xswgzlhc6es1c3di": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock",
+                                                "displayName": "Text Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "zcn9877o3nvd73h1byxbhuxr": {
+                                    "content": "<div data-type=\"block\" data-key=\"qb2nsjp41nz2z6yhzyny1ra4i\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"dd5ch09axlfkqw1j51ssxxbt9\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "qb2nsjp41nz2z6yhzyny1ra4i": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock",
+                                                "displayName": "Text Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "dd5ch09axlfkqw1j51ssxxbt9": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock",
+                                                "displayName": "Text Block"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "wo2vnql93i1o54epi6sjj1yvi": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"border-top: 1px solid #E6E6E6; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "border-top": "1px solid #E6E6E6",
+                                        "padding-top": "40px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "2z0l9sasn597bkhycvzzuayvi": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"slot-styling\"><tr><td style=\"padding-right: 20px; padding-left: 20px; \" class=\"slot-styling camarker-inner\"><div data-type=\"block\" data-key=\"yesz9aug4ufpvno1zh19vn29\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"b9mk4mr9j6er75bsajefdpldi\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"mpnvmhppteknvxth8x97zm2t9\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"h9kd5xdmdk1olwvzv6ik0ggb9\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"d0o809p039j2db0a4nltsm7vi\" data-original-key=\"none\"></div></td></tr></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Content 1</p>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {
+                                "padding-right": "20px",
+                                "padding-left": "20px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "blocks": {
+                        "yesz9aug4ufpvno1zh19vn29": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"border-top: 1px solid #E6E6E6; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "border-top": "1px solid #E6E6E6",
+                                        "padding-top": "20px",
+                                        "padding-bottom": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "b9mk4mr9j6er75bsajefdpldi": {
+                            "assetType": {
+                                "id": 199,
+                                "name": "imageblock",
+                                "displayName": "Image Block"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABuoAAACWBAMAAADK78OEAAAAKlBMVEUFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwhamwL+AAAADXRSTlMwmGPLQ97yfrGki3G+5/n17AAACcpJREFUeF7s2kGL00AYh/FJNhLrKrSy4KlQZBEvhUrOhS6wy168CQiYi/QaWOl5QbwXehaEfoQF/BqCpqSC8P8uBpxjtFs6KTPx+X2E981DZkJMwAAAAAAAAAAAAAAAAAAAQHJujgpAVJr/FEB1yDJzVKA6SMYXoDqqA9WB6kB1MdU5BaqjOlAd1VEdqO6U6jBodkZ1LYmoDmpWmpZQ3YjqHKI6qqM6UB3VUR3VUR3VYZGpWZWtqK4NVIeh/mpCdQ5QHajOAar7MJAGz8xOSGdU54VobUI3VW1jdsK46Z6mfyl9rC4Jv7q+8U7STnXIyy5UF2cmdD0Pq3vYSnWIVHWgunga/q5PPKzuyayN6nAl9YOvLlmK6towvmujOkylMvTqfi5FdZYVj4wLw9VeXzBz1apdXzHxSFIVeHU9ieosK8319unMHGw62fdNd49d4Eq1fkNz4XSXOjrXXAwaHLO6lcvoatWrr+ZAxfdOVbfIbowPvqk2D7m6NHe06bEaHLO6icORWJvPI3OAWGWnqhuqbzxwaqcUbnVpLqprHIn17uyQ+8cPc1+9rJC1zVZUt+uAKa2Dre6iUFequ3xjnIhzZ8t6vMdYT/z9f8lKni/16dyXA6Y0D7E6G11XqkvyamZciNwt64G2Haou8uTRjfXHJtDqrgt1prpL6b1v1b2WRlTnftPWXZDVXUudqS4upO2NZ9XdSmuqc+2LrHmI1b1Uh6p7odovz6pbSh+pzrHf7N1BS9tgHMdxFisVx8Ayr0JIRXYRZA96zoTBLoJIwVMB3WCAFLzsKDjYVfAljN0F38BuuwpVTbWuv/cy1dk/jQ2J6dPmn+T3PduQNPlgkjxP6uCpXg7V1VEgdU4L9x3qUtcENhOaM2uQ8NlEuaO6afQ7zZ26Omyqe5Xxti7hoZ6vSV0FwFXCYdII1aa6+AnjX/Km7huKpK7awmMNTepeA7imOrs5kLo5U+egUOoO8L+Oq0KdLKlLdZHVzX3pTzABNzt1VFdFvz1F6qYABFQXcydglDcSNbJTR3UHkPZVqBNKSa40171lhLrwFqluSJUWJHTFYqLaVGetKiR0Rx1Wv2pjA+SoOk17+/eiJOpeNj9lCgO5WamjuhNIwLHlVypejLasOapLuNkp9jU2LaijOgtSVtSoO3u2OlRnJNPEQMlPMKVzqhuM6lrPdjTVIbpkszhCuSVVF7/NbjnVOQk+TnWSd5cfM9foBKG2PKqTQHWzuO+20Oocb7DFVOok9+VnVDlXR3VVY5r2jv4ZGaIb04faAkKd1+bzoG4qvNpUR3U2rk4vRhum25nMU/JauCKqc94iXFCjOglUtyFbP351CFc0dbIK4eOW6iSq+42H9lWoq9T6zRdTHdVRncx5PlShzkG/wC2qOqqjuiYe2tSmDnt61f3ySqWO6qrGrNpUV8FjV+rU4adadcBk1VGd4w00aXWvrA6uka/479jVOcYYhDN3HUfs8Bvfirq6MWuK1VFdiiMv3+pked3xq0NEK1F/07CibhmAHnVUR3Vy8hUoVNdxC6iO6qhONkehOlyPSd1l7XnzStWte5KvTp0jA+yoLsXsMVehOhzbUhdfZ06fuvBnbnxF6uSIOC+6Ou+dXXUy/3IuA3Wx9fyJqUPgqleHHT8DdVQH2FUna7WiUR02J6cOl3I/VZW69Oyozmm9/JKF6toTUSetKFeHbaoDkOa1KWlfu051VIdtReoA6Fb3CaHS/I4d1VEd3lNdUnWVJsLtUh3VJVGXlh3VLUEaZZwh1VEdflBdomYhpX76QnVUl5wd1VWOMKxG9urW+2u25edFHdV15qkuvo8YWsfNXN0G+rma1FGdfNvp2FFdK4pK5uqmZUfm5wyT6hDsU11cUKtuBk/18qCO6oRdQdQ5nueXTZ3c5rkdnzqqC7yHjuypQ+AWQ90b4LvM+iiHOkcWMC51VCdZVIdLtyDqnuqclkWdXHK2c6POPPan5OrQ84ulDu1cqqtJtaSP4M/y97xOTrHKrQ43fvbqqC7NHlnIrTrslV0dzn1V6qgOjYmqm8Kw3HGpix5SV18FgMCUQh12fFXqqC5wi6VOXsce/f9cjKEc6vBVlTqqw659df/Yu6OVBIIoDMAUUnSnBHQVyEIQQVAOEQHCFtB9EnQlRPUAvYBg0APso/gIAT2AruwKwXmXaFOPeFxm3XVHx/n/y5nBmXXO5wIrs+tVJz/g0Xl19LRg+prMkRl1UBf3tk+d/i91t+2k59IVddTS7BLDMaAO6ihcu7oPfvi5KnXao/uaSUfVGXXUKK4O6uQsVqrjhIXUaYo4gDr6XkZdpSZTt1jdgZomMKQO6oY+1FE3k7r0XajaqE4W3oUhdVBHLaijvkF1PGLgrDqoi3tm1UEd1EEd/SyjDuoqh6LvoZ5FnTeTM8fVQR19ZlMHdbw4ec16dU05bQnq5NNGfxPVQV3kL3jjc9dmdaGX5NxBdXL19ezqiPqG1EEdvSwomTdb1BUP1HGG6saMOqiL3+WRFKM86jjWqku7R8ZKqWB71XGGpauDOvl253tKEjmqTnMfX5U6qIM6+uIldnizbFMHdbxXG6wO6mTZtcdNXQvUQR3HXnVQx5M8a9RBHdRVvNn41qgLvXFO1qtOnu852gZ1UDc5tu+4DHU7c7zLVMd96ep2+QdAqFs2kfrPlQl1e/zt268O6jgOqONrqRZWxzGhrjNt86FuLi3vL6dQJ3qKqYM6ro0A6nQprg7qoG5fKW57VY3c6qAO6pRS11CnGyUHhu6pg7qoNk1OdZxBbnU1kXR1d94kJ0Ldbzt3j9JAEAZgGELAwmpAsJUFrQMDdinS24TUqaytPEcgF/AI3sUkIGnmLhIRN+usNib7kzzvEb6dhx1mYFIl6gaxbNlrdXm9VJfXorqU9Zu6PwdEXbXKD2F0tuqoo24Q0l7TK+qoo+74Z5gps3AkdZXbx8dYNqJu1yTsuqaOuiZ6o64c+oY66g4bddRtQwh9Vkcddauw6Ly6vAbVUUfduthbnZNQaZGp+3fUUUdd2apmyn1SRx111FFHHXXUUUcddcV3t9TlUUddC1FHHXXtRx111FFHHXXUzWIcN6OOOuqoK+unOurW5YNALagbnoc66qjLa03dXbPqqKOOuovUZXXUbcNX49NRR91LJ9VRl9eAumaWHXUPqR1126IoXs9RHXXUDeepK1FH3am3iZ/dpzNRRx11oi6POlFHHXXUUVfWZ3XPMcb045XKG+qoy2/NDqSOuvrPSx11NVFH3QGjjjrqqLt8oo66BtN7jPPU26ijTtRRJ+qoq93LzJZHUydRl2obnYQ6UUedRN0qhJBqm4awSBJ1HUyiTtIHMv/VI7tXCZsAAAAASUVORK5CYII=) repeat-x 0 0\"></div></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "mpnvmhppteknvxth8x97zm2t9": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "20px",
+                                        "padding-bottom": "20px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "h9kd5xdmdk1olwvzv6ik0ggb9": {
+                            "assetType": {
+                                "id": 212,
+                                "name": "buttonblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"margin:15px auto; width:60px;height:60px;\"><img src=\"data:image/png;base64,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\"></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-bottom": "40px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {},
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "d0o809p039j2db0a4nltsm7vi": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"border-top: 1px solid #E6E6E6; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 20,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "butz58jw07gs7v4qb7cjzia4i"
+                                                    },
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "aq09vqxqjiu9xdvzt5msoflxr"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "border-top": "1px solid #E6E6E6",
+                                        "padding-top": "40px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "butz58jw07gs7v4qb7cjzia4i": {
+                                    "content": "<div data-type=\"block\" data-key=\"a71vsnk11hwxt1d2m13ui8uxr\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "a71vsnk11hwxt1d2m13ui8uxr": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-bottom": "40px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "aq09vqxqjiu9xdvzt5msoflxr": {
+                                    "content": "<div data-type=\"block\" data-key=\"0t1u2cnuz1j44pslbweglul3di\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "0t1u2cnuz1j44pslbweglul3di": {
+                                            "assetType": {
+                                                "id": 195,
+                                                "name": "freeformblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-bottom": "40px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "lh3sp5yz3jrrqu6p6cxnfusor": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #549774; min-width: 100%; \" class=\"slot-styling\"><tr><td class=\"slot-styling camarker-inner\"><div data-type=\"block\" data-key=\"0kyq72fqaw3x1ickac7yhhyqfr\" data-original-key=\"none\"></div></td></tr></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Content 3</p>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {
+                                "background-color": "#549774"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "blocks": {
+                        "0kyq72fqaw3x1ickac7yhhyqfr": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 40px; padding-right: 40px; padding-left: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 40,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "mnk0oqo5rws67lz5ogh9f6r"
+                                                    },
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "task9v7grgp6rfpumipzgds4i"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding-top": "40px",
+                                        "padding-right": "40px",
+                                        "padding-left": "40px"
+                                    }
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "mnk0oqo5rws67lz5ogh9f6r": {
+                                    "content": "<div data-type=\"block\" data-key=\"5s97x80vhknswlpdassobc5wmi\" data-original-key=\"none\"></div><div data-type=\"block\" data-key=\"ya15v85o88685a3irrpe3ik9\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "5s97x80vhknswlpdassobc5wmi": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "ya15v85o88685a3irrpe3ik9": {
+                                            "assetType": {
+                                                "id": 212,
+                                                "name": "buttonblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 20px; padding-bottom: 20px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"margin:15px auto; width:60px;height:60px;\"><img src=\"data:image/png;base64,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\"></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-top": "20px",
+                                                        "padding-bottom": "20px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "task9v7grgp6rfpumipzgds4i": {
+                                    "content": "<div data-type=\"block\" data-key=\"3cokhm3g6sxf0vvmxom4ih33di\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "3cokhm3g6sxf0vvmxom4ih33di": {
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-bottom: 40px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABuoAAACWBAMAAADK78OEAAAAKlBMVEUFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwgFBwhamwL+AAAADXRSTlMwmGPLQ97yfrGki3G+5/n17AAACcpJREFUeF7s2kGL00AYh/FJNhLrKrSy4KlQZBEvhUrOhS6wy168CQiYi/QaWOl5QbwXehaEfoQF/BqCpqSC8P8uBpxjtFs6KTPx+X2E981DZkJMwAAAAAAAAAAAAAAAAAAAQHJujgpAVJr/FEB1yDJzVKA6SMYXoDqqA9WB6kB1MdU5BaqjOlAd1VEdqO6U6jBodkZ1LYmoDmpWmpZQ3YjqHKI6qqM6UB3VUR3VUR3VYZGpWZWtqK4NVIeh/mpCdQ5QHajOAar7MJAGz8xOSGdU54VobUI3VW1jdsK46Z6mfyl9rC4Jv7q+8U7STnXIyy5UF2cmdD0Pq3vYSnWIVHWgunga/q5PPKzuyayN6nAl9YOvLlmK6towvmujOkylMvTqfi5FdZYVj4wLw9VeXzBz1apdXzHxSFIVeHU9ieosK8319unMHGw62fdNd49d4Eq1fkNz4XSXOjrXXAwaHLO6lcvoatWrr+ZAxfdOVbfIbowPvqk2D7m6NHe06bEaHLO6icORWJvPI3OAWGWnqhuqbzxwaqcUbnVpLqprHIn17uyQ+8cPc1+9rJC1zVZUt+uAKa2Dre6iUFequ3xjnIhzZ8t6vMdYT/z9f8lKni/16dyXA6Y0D7E6G11XqkvyamZciNwt64G2Haou8uTRjfXHJtDqrgt1prpL6b1v1b2WRlTnftPWXZDVXUudqS4upO2NZ9XdSmuqc+2LrHmI1b1Uh6p7odovz6pbSh+pzrHf7N1BS9tgHMdxFisVx8Ayr0JIRXYRZA96zoTBLoJIwVMB3WCAFLzsKDjYVfAljN0F38BuuwpVTbWuv/cy1dk/jQ2J6dPmn+T3PduQNPlgkjxP6uCpXg7V1VEgdU4L9x3qUtcENhOaM2uQ8NlEuaO6afQ7zZ26Omyqe5Xxti7hoZ6vSV0FwFXCYdII1aa6+AnjX/Km7huKpK7awmMNTepeA7imOrs5kLo5U+egUOoO8L+Oq0KdLKlLdZHVzX3pTzABNzt1VFdFvz1F6qYABFQXcydglDcSNbJTR3UHkPZVqBNKSa40171lhLrwFqluSJUWJHTFYqLaVGetKiR0Rx1Wv2pjA+SoOk17+/eiJOpeNj9lCgO5WamjuhNIwLHlVypejLasOapLuNkp9jU2LaijOgtSVtSoO3u2OlRnJNPEQMlPMKVzqhuM6lrPdjTVIbpkszhCuSVVF7/NbjnVOQk+TnWSd5cfM9foBKG2PKqTQHWzuO+20Oocb7DFVOok9+VnVDlXR3VVY5r2jv4ZGaIb04faAkKd1+bzoG4qvNpUR3U2rk4vRhum25nMU/JauCKqc94iXFCjOglUtyFbP351CFc0dbIK4eOW6iSq+42H9lWoq9T6zRdTHdVRncx5PlShzkG/wC2qOqqjuiYe2tSmDnt61f3ySqWO6qrGrNpUV8FjV+rU4adadcBk1VGd4w00aXWvrA6uka/479jVOcYYhDN3HUfs8Bvfirq6MWuK1VFdiiMv3+pked3xq0NEK1F/07CibhmAHnVUR3Vy8hUoVNdxC6iO6qhONkehOlyPSd1l7XnzStWte5KvTp0jA+yoLsXsMVehOhzbUhdfZ06fuvBnbnxF6uSIOC+6Ou+dXXUy/3IuA3Wx9fyJqUPgqleHHT8DdVQH2FUna7WiUR02J6cOl3I/VZW69Oyozmm9/JKF6toTUSetKFeHbaoDkOa1KWlfu051VIdtReoA6Fb3CaHS/I4d1VEd3lNdUnWVJsLtUh3VJVGXlh3VLUEaZZwh1VEdflBdomYhpX76QnVUl5wd1VWOMKxG9urW+2u25edFHdV15qkuvo8YWsfNXN0G+rma1FGdfNvp2FFdK4pK5uqmZUfm5wyT6hDsU11cUKtuBk/18qCO6oRdQdQ5nueXTZ3c5rkdnzqqC7yHjuypQ+AWQ90b4LvM+iiHOkcWMC51VCdZVIdLtyDqnuqclkWdXHK2c6POPPan5OrQ84ulDu1cqqtJtaSP4M/y97xOTrHKrQ43fvbqqC7NHlnIrTrslV0dzn1V6qgOjYmqm8Kw3HGpix5SV18FgMCUQh12fFXqqC5wi6VOXsce/f9cjKEc6vBVlTqqw659df/Yu6OVBIIoDMAUUnSnBHQVyEIQQVAOEQHCFtB9EnQlRPUAvYBg0APso/gIAT2AruwKwXmXaFOPeFxm3XVHx/n/y5nBmXXO5wIrs+tVJz/g0Xl19LRg+prMkRl1UBf3tk+d/i91t+2k59IVddTS7BLDMaAO6ihcu7oPfvi5KnXao/uaSUfVGXXUKK4O6uQsVqrjhIXUaYo4gDr6XkZdpSZTt1jdgZomMKQO6oY+1FE3k7r0XajaqE4W3oUhdVBHLaijvkF1PGLgrDqoi3tm1UEd1EEd/SyjDuoqh6LvoZ5FnTeTM8fVQR19ZlMHdbw4ec16dU05bQnq5NNGfxPVQV3kL3jjc9dmdaGX5NxBdXL19ezqiPqG1EEdvSwomTdb1BUP1HGG6saMOqiL3+WRFKM86jjWqku7R8ZKqWB71XGGpauDOvl253tKEjmqTnMfX5U6qIM6+uIldnizbFMHdbxXG6wO6mTZtcdNXQvUQR3HXnVQx5M8a9RBHdRVvNn41qgLvXFO1qtOnu852gZ1UDc5tu+4DHU7c7zLVMd96ep2+QdAqFs2kfrPlQl1e/zt268O6jgOqONrqRZWxzGhrjNt86FuLi3vL6dQJ3qKqYM6ro0A6nQprg7qoG5fKW57VY3c6qAO6pRS11CnGyUHhu6pg7qoNk1OdZxBbnU1kXR1d94kJ0Ldbzt3j9JAEAZgGELAwmpAsJUFrQMDdinS24TUqaytPEcgF/AI3sUkIGnmLhIRN+usNib7kzzvEb6dhx1mYFIl6gaxbNlrdXm9VJfXorqU9Zu6PwdEXbXKD2F0tuqoo24Q0l7TK+qoo+74Z5gps3AkdZXbx8dYNqJu1yTsuqaOuiZ6o64c+oY66g4bddRtQwh9Vkcddauw6Ly6vAbVUUfduthbnZNQaZGp+3fUUUdd2apmyn1SRx111FFHHXXUUUcddcV3t9TlUUddC1FHHXXtRx111FFHHXXUzWIcN6OOOuqoK+unOurW5YNALagbnoc66qjLa03dXbPqqKOOuovUZXXUbcNX49NRR91LJ9VRl9eAumaWHXUPqR1126IoXs9RHXXUDeepK1FH3am3iZ/dpzNRRx11oi6POlFHHXXUUVfWZ3XPMcb045XKG+qoy2/NDqSOuvrPSx11NVFH3QGjjjrqqLt8oo66BtN7jPPU26ijTtRRJ+qoq93LzJZHUydRl2obnYQ6UUedRN0qhJBqm4awSBJ1HUyiTtIHMv/VI7tXCZsAAAAASUVORK5CYII=) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-bottom": "40px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "9ofxbdrgmasorwt0940io1or": {
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #212121; border-bottom: 20px solid #333333; min-width: 100%; \" class=\"slot-styling\"><tr><td style=\"padding-right: 20px; padding-left: 20px; \" class=\"slot-styling camarker-inner\"><div data-type=\"block\" data-key=\"gxj5cmojay99dxcwnee45cdi\" data-original-key=\"none\"></div></td></tr></table>",
+                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">PreHeader</p>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {
+                                "background-color": "#212121",
+                                "border-bottom": "20px solid #333333",
+                                "padding-right": "20px",
+                                "padding-left": "20px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "blocks": {
+                        "gxj5cmojay99dxcwnee45cdi": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 0,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "kq778qo5fl5m56or0eteghkt9"
+                                                    },
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "i42w67a3npabtlh7ftg9zfr"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "availableViews": [],
+                            "blocks": {},
+                            "slots": {
+                                "kq778qo5fl5m56or0eteghkt9": {
+                                    "content": "<div data-type=\"block\" data-key=\"jiqwc2nxhhf80zi84iodsfw29\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "jiqwc2nxhhf80zi84iodsfw29": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 10px; padding-bottom: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-top": "10px",
+                                                        "padding-bottom": "10px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "i42w67a3npabtlh7ftg9zfr": {
+                                    "content": "<div data-type=\"block\" data-key=\"r4oz5l3ykr8y77gdtsyusdcxr\" data-original-key=\"none\"></div>",
+                                    "design": "<p style=\"font-family: Arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "availableViews": [],
+                                    "blocks": {
+                                        "r4oz5l3ykr8y77gdtsyusdcxr": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding-top: 10px; padding-bottom: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {
+                                                        "padding-top": "10px",
+                                                        "padding-bottom": "10px"
+                                                    }
+                                                }
+                                            },
+                                            "availableViews": [],
+                                            "blocks": {},
+                                            "slots": {},
+                                            "data": {
+                                                "email": {
+                                                    "options": {
+                                                        "generateFrom": ""
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "slots": {},
+                                    "data": {
+                                        "email": {
+                                            "options": {
+                                                "generateFrom": ""
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "data": {
+                                "email": {
+                                    "options": {
+                                        "generateFrom": ""
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "slots": {},
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "template": {
+                "id": 0,
+                "assetType": {
+                    "id": 214,
+                    "name": "defaulttemplate"
+                },
+                "name": "CONTENTTEMPLATES_BUSINESS_1",
+                "content": "",
+                "meta": {
+                    "contentHash": 1182740812
+                },
+                "availableViews": [],
+                "slots": {
+                    "e16dfg5ng4akq7nce889jgiudi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "46rmc6vjl9mtalb42aa89z4cxr": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "jmoqvk0oozhtvjwvf68o20529": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "u0dfizn6y4vqb608koj7i7ldi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "v9c5fhe2d2spqkr52behwu3di": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "zi9vnmpuaenazq8h0ynzh0k9": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "yc15syqy9wnqwgizyxdmquxr": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "1y6x8a7ndxzwzwfyxcsb81tt9": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "lg4ocbprqhmc7gurqqf2sm7vi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "s384oh90zq5tfbj2ab5wxw29": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "e07panhjgpbgpo3bnqpjr4fgvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "g4gyn0c6d6xifo9zyy6gpsyvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "e5arbdxk7m8p3fafhogrxusor": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "k81tu2vws3e5eumxbh6wrvn29": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "ljo3302xdq82ts74nudcayvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "0uhdcklaiougzucgezyoh9qkt9": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "yj500t1smccv6kj8qz0ejyvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "8ecbdsx6eo9zavfznrgig4x6r": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "ivi3e9sa5znf8vzh4qtihpvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "9szgdt35w2s0in4xjmbm1v2t9": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "cgb67a4pbrwwbarm4scoqd7vi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "mlm2g55zmxcjbai9jx5x3l3di": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "2z0l9sasn597bkhycvzzuayvi": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "lh3sp5yz3jrrqu6p6cxnfusor": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    },
+                    "9ofxbdrgmasorwt0940io1or": {
+                        "locked": false,
+                        "availableViews": [],
+                        "data": {
+                            "email": {
+                                "options": {
+                                    "generateFrom": ""
+                                }
+                            }
+                        },
+                        "modelVersion": 2
+                    }
+                },
+                "data": {
+                    "email": {
+                        "options": {
+                            "generateFrom": ""
+                        }
+                    }
+                },
+                "modelVersion": 2
+            },
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Emails/Test Emails OLD/Test Dynamic Links/Version 1"
+}

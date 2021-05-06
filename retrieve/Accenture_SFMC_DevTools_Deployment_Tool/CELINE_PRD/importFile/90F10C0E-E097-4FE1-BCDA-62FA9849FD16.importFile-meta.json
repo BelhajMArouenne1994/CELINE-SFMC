@@ -1,0 +1,50 @@
+{
+    "allowErrors": true,
+    "customerKey": "90F10C0E-E097-4FE1-BCDA-62FA9849FD16",
+    "createdDate": "2021-03-26T07:52:50.013",
+    "modifiedDate": "2021-04-12T04:04:03.007",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "Account Id"
+        },
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "Day Number"
+        },
+        {
+            "sourceFieldOrdinal": 5,
+            "destinationFieldName": "ISP"
+        },
+        {
+            "sourceFieldOrdinal": 4,
+            "destinationFieldName": "Wave Number"
+        },
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "Week Number"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "Ramp Up Data20210326.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "RampUpData",
+    "notificationEmailAddress": "support.salesforce.sfmc@celine.fr",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "68833625-9DC6-4F6F-8C28-B74B7DB4C503",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

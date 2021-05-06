@@ -1,0 +1,30 @@
+{
+    "name": "IMPORT_EMAIL_FOOTER_TRANSLATION",
+    "description": "",
+    "key": "74d03489-9f2a-1c90-a8c7-2236b9d89e67",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "EMAIL_FOOTER-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_FOOTER_TRANSLATION",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}

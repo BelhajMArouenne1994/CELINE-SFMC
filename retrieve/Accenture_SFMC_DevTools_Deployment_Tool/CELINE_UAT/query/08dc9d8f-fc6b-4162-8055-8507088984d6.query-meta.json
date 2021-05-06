@@ -1,0 +1,11 @@
+{
+    "name": "RESUBSCRIBES QUERY",
+    "key": "08dc9d8f-fc6b-4162-8055-8507088984d6",
+    "description": "",
+    "targetKey": "A5134FD9-257B-4F2F-B9F0-530F16CE0B72",
+    "createdDate": "2021-02-25T15:01:42.5",
+    "modifiedDate": "2021-04-02T09:48:20.063",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Data Sync"
+}

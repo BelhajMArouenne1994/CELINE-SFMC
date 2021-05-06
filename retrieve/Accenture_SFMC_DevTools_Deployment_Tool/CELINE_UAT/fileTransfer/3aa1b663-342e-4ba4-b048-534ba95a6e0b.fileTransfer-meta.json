@@ -1,0 +1,16 @@
+{
+    "name": "TRANSFER_ALL_SUBSCRIBERS_LIST_UPDATES",
+    "customerKey": "3aa1b663-342e-4ba4-b048-534ba95a6e0b",
+    "createdDate": "2021-04-09T08:48:54.557",
+    "modifiedDate": "2021-04-10T05:07:05.103",
+    "fileSpec": "All_Subscribers_List_Update_%%Year%%_%%Month%%_%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "All Subscribers List Updates"
+}

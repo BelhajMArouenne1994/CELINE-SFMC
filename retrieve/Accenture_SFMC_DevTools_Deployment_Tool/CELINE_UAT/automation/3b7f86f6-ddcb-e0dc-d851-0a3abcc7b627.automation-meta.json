@@ -1,0 +1,116 @@
+{
+    "name": "UPDATING_ALL_SUBSCRIBERS_LIST",
+    "description": "",
+    "key": "3b7f86f6-ddcb-e0dc-d851-0a3abcc7b627",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-04-10T00:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "Romance Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "EXTRACT SUBSCRIBERS",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "name": "TRANSFER SUBSCRIBERS STATUS FROM SAFEHOUSE",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "name": "UNZIP SUBSCRIBERS STATUS",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 4,
+            "activities": [
+                {
+                    "name": "IMPORT_SUBSCRIBERS_STATUS_DE",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 5,
+            "activities": [
+                {
+                    "name": "QUERY_ALL_SUBSCRIBERS_LIST_UPDATES",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 6,
+            "activities": [
+                {
+                    "name": "1 Minutes",
+                    "displayOrder": 1,
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 7,
+            "activities": [
+                {
+                    "name": "EXTRACT_ALL_SUBSCRIBERS_LIST_UPDATES",
+                    "displayOrder": 1,
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 8,
+            "activities": [
+                {
+                    "name": "TRANSFER_ALL_SUBSCRIBERS_LIST_UPDATES",
+                    "displayOrder": 1,
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "step": 9,
+            "activities": [
+                {
+                    "name": "UPDATE_ALL_SUBSCRIBERS_LIST_SCRIPT",
+                    "displayOrder": 1,
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/RESUBSCRIBE AUTOMATION"
+}

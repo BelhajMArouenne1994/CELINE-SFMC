@@ -1,0 +1,42 @@
+{
+    "allowErrors": false,
+    "customerKey": "F5D10E6A-CD54-43A3-B7B2-3BB6AE9E530C",
+    "createdDate": "2021-04-09T08:50:16.107",
+    "modifiedDate": "2021-04-11T04:04:16.643",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldOrdinal": 3,
+            "destinationFieldName": "Email Address"
+        },
+        {
+            "sourceFieldOrdinal": 2,
+            "destinationFieldName": "Status"
+        },
+        {
+            "sourceFieldOrdinal": 1,
+            "destinationFieldName": "Subscriber Key"
+        }
+    ],
+    "fieldMappingType": "MapByOrdinal",
+    "fileNamingPattern": "All_Subscribers_List_Update_%%Year%%_%%Month%%_%%Day%%.csv",
+    "fileType": "Other",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_ALL_SUBSCRIBERS_LIST_UPDATES",
+    "otherDelimiter": ";",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 9,
+    "r__ftpLocation_name": "All Subscribers List Updates",
+    "c__destinationType": "List",
+    "r__list_PathName": "my subscribers/All Subscribers",
+    "c__subscriberImportType": "Email",
+    "c__dataAction": "Update"
+}

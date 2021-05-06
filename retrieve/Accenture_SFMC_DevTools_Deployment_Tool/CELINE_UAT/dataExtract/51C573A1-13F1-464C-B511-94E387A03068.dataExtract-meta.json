@@ -1,0 +1,39 @@
+{
+    "name": "EXTRACT RESUBSCRIPTIONS",
+    "key": "51C573A1-13F1-464C-B511-94E387A03068",
+    "fileSpec": "Resubscriptions_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-02-25T15:03:22.547",
+    "modifiedDate": "2021-04-02T10:08:39.967",
+    "createdBy": 710142709,
+    "modifiedBy": 710142709,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "51C573A1-13F1-464C-B511-94E387A03068"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "True"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

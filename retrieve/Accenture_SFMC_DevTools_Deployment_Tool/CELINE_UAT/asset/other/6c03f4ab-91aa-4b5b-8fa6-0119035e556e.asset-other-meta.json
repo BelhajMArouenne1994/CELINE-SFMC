@@ -1,0 +1,47 @@
+{
+    "customerKey": "6c03f4ab-91aa-4b5b-8fa6-0119035e556e",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CODE_SNIPPET_REPLY_MAIL"
+    },
+    "name": "CODE_SNIPPET_REPLY_MAIL",
+    "description": "Code snippet to dynamically set the reply email address",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-23T15:32:56.86-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-30T07:36:32.467-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "businessUnitAvailability": {
+        "510003879": {
+            "view": true,
+            "update": false,
+            "delete": false,
+            "memberId": 510003879,
+            "transferOwnership": false
+        }
+    },
+    "sharingProperties": {
+        "sharingType": "view",
+        "sharedWith": [
+            510003879
+        ]
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Code Snippets"
+}

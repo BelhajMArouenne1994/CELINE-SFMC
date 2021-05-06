@@ -1,0 +1,16 @@
+{
+    "name": "UNZIP UNDELIVERABLE STATUS",
+    "customerKey": "9d02a480-53e6-4d2c-b078-3c94c02fd264",
+    "createdDate": "2021-04-02T02:28:04.027",
+    "modifiedDate": "2021-04-02T07:21:04.983",
+    "fileSpec": "UNDELIVERABLE_STATUS_%%Year%%_%%Month%%_%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

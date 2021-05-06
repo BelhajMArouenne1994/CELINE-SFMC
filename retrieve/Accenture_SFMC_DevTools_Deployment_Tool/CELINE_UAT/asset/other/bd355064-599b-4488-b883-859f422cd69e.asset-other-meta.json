@@ -1,0 +1,32 @@
+{
+    "customerKey": "bd355064-599b-4488-b883-859f422cd69e",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CODE_SNIPPET_PROPAGATE_SENT_BY_SFMC_AUTOMATED"
+    },
+    "name": "CODE_SNIPPET_PROPAGATE_SENT_BY_SFMC_AUTOMATED",
+    "description": "This code snippet is responsible of updating the field : cel_sent_by_sfcm__c to True in SF Sales Cloud when an email is sent to a client from MC.",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-22T09:47:12.683-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-03-22T09:47:12.683-06:00",
+    "modifiedBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Test Emails/Test Emails OLD/Test Dynamic Links/CODE_SNIPPETS_AUTOMATED"
+}

@@ -1,0 +1,224 @@
+%%[
+/* Retrieving the Subscriber Key and Status, the Email Address and the Language */
+VAR @skey
+
+IF EMPTY(_subscriberkey) THEN
+    SET @skey = ContactKey
+ELSE
+    SET @skey = _subscriberkey
+ENDIF
+
+/* @found this variables is set tot true when a correspounding line is found in EMAIL_FOOTER_TRANSLATION DE is found */
+VAR @found
+
+/* Retrieving the Language, the Region Main Store, the Address 1 Country, the Nationality, the Country Main Store and the Address 1 City of the Subscriber from the Main Data Extension Contacts */
+VAR @language, @regionMainStore, @country, @nationality, @countryMainStore, @city
+
+VAR @rows 
+SET @rows = LookupRows("Contacts", "ContactKey", @skey)
+IF Rowcount(@rows) > 0 THEN
+    VAR @row
+    SET @row = Row(@rows, 1)
+    SET @language = Field(@row, "Language")
+    SET @regionMainStore = Field(@row, "Region Main Store")
+    SET @country = Field(@row, "Address 1 Country")
+    SET @nationality = Field(@row, "Nationality")
+    SET @countryMainStore = Field(@row, "Country Main Store")
+    SET @city = Field(@row, "Address 1 City")
+ENDIF
+
+/* Searching Text Blocks From Translation Data Extension EMAIL_FOOTER_TRANSLATION */
+
+VAR @lineText_1, @lineLink_1, @lineText_2, @lineLink_2, @lineText_3, @lineLink_3, @lineText_4, @lineLink_4
+VAR @socialMediaText_1, @socialMediaLink_1, @socialMediaText_2, @socialMediaLink_2, @socialMediaText_3, @socialMediaLink_3, @socialMediaText_4, @socialMediaLink_4, @socialMediaText_5, @socialMediaLink_5
+VAR @privacyPolicyText, @privacyPolicyLink, @legalMentionText, @cscEmailAddress, @unsubscribeText
+
+/* Setting available Languages to avoid Errors */ 
+/* VAR @availableRegionMainStores */
+/* SET @availableRegionMainStores = "EUROPE ME US APAC JAPAN CHINA" */
+/* IndexOf(@availableRegionMainStores,@regionMainStore) > 0 */ 
+
+IF (@language=="FR" OR @language=="ES" OR @language=="CHT" OR @language=="CHS" OR @language=="JP") THEN
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOOTER_TRANSLATION", "Language", @language)
+
+    IF Rowcount(@rows) > 0 THEN
+        SET @found = "true"
+
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+
+        SET @lineText_1 = Field(@rowSelected, "Line 1 Text")
+        SET @lineLink_1 = Field(@rowSelected, "Line 1 Link")
+        SET @lineText_2 = Field(@rowSelected, "Line 2 Text")
+        SET @lineLink_2 = Field(@rowSelected, "Line 2 Link")
+        SET @lineText_3 = Field(@rowSelected, "Line 3 Text")
+        SET @lineLink_3 = Field(@rowSelected, "Line 3 Link")
+        SET @lineText_4 = Field(@rowSelected, "Line 4 Text")
+        SET @lineLink_4 = Field(@rowSelected, "Line 4 Link")
+        SET @socialMediaText_1 = Field(@rowSelected, "Social Media 1 Text")
+        SET @socialMediaLink_1 = Field(@rowSelected, "Social Media 1 Link")
+        SET @socialMediaText_2 = Field(@rowSelected, "Social Media 2 Text")
+        SET @socialMediaLink_2 = Field(@rowSelected, "Social Media 2 Link")
+        SET @socialMediaText_3 = Field(@rowSelected, "Social Media 3 Text")
+        SET @socialMediaLink_3 = Field(@rowSelected, "Social Media 3 Link")
+        SET @socialMediaText_4 = Field(@rowSelected, "Social Media 4 Text")
+        SET @socialMediaLink_4 = Field(@rowSelected, "Social Media 4 Link")
+        SET @socialMediaText_5 = Field(@rowSelected, "Social Media 5 Text")
+        SET @socialMediaLink_5 = Field(@rowSelected, "Social Media 5 Link")
+        SET @privacyPolicyText = Field(@rowSelected, "Privacy Policy Text")
+        SET @privacyPolicyLink = Field(@rowSelected, "Privacy Policy Link")
+        SET @legalMentionText = Field(@rowSelected, "Legal Mention Text")
+        SET @cscEmailAddress = Field(@rowSelected, "CSC Email Address")
+        SET @unsubscribeText = Field(@rowSelected, "Unsubscribe Text")
+    
+    ENDIF
+
+ELSEIF (@city=="HAWAIIAN GARDENS" OR @city=="HONO HAWAII" OR @city=="HAWAII" OR @city=="HAWAI HONOLULU" OR @countryMainStore=="US006") THEN
+        
+    VAR @rows
+    /* Country Main Store = "HAWAII" to be checked later */
+    SET @rows = LookupRows("EMAIL_FOOTER_TRANSLATION", "City", "HAWAI")
+
+    IF Rowcount(@rows) > 0 THEN
+
+        SET @found = "true"
+
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+
+        SET @lineText_1 = Field(@rowSelected, "Line 1 Text")
+        SET @lineLink_1 = Field(@rowSelected, "Line 1 Link")
+        SET @lineText_2 = Field(@rowSelected, "Line 2 Text")
+        SET @lineLink_2 = Field(@rowSelected, "Line 2 Link")
+        SET @lineText_3 = Field(@rowSelected, "Line 3 Text")
+        SET @lineLink_3 = Field(@rowSelected, "Line 3 Link")
+        SET @lineText_4 = Field(@rowSelected, "Line 4 Text")
+        SET @lineLink_4 = Field(@rowSelected, "Line 4 Link")
+        SET @socialMediaText_1 = Field(@rowSelected, "Social Media 1 Text")
+        SET @socialMediaLink_1 = Field(@rowSelected, "Social Media 1 Link")
+        SET @socialMediaText_2 = Field(@rowSelected, "Social Media 2 Text")
+        SET @socialMediaLink_2 = Field(@rowSelected, "Social Media 2 Link")
+        SET @socialMediaText_3 = Field(@rowSelected, "Social Media 3 Text")
+        SET @socialMediaLink_3 = Field(@rowSelected, "Social Media 3 Link")
+        SET @socialMediaText_4 = Field(@rowSelected, "Social Media 4 Text")
+        SET @socialMediaLink_4 = Field(@rowSelected, "Social Media 4 Link")
+        SET @socialMediaText_5 = Field(@rowSelected, "Social Media 5 Text")
+        SET @socialMediaLink_5 = Field(@rowSelected, "Social Media 5 Link")
+        SET @privacyPolicyText = Field(@rowSelected, "Privacy Policy Text")
+        SET @privacyPolicyLink = Field(@rowSelected, "Privacy Policy Link")
+        SET @legalMentionText = Field(@rowSelected, "Legal Mention Text")
+        SET @cscEmailAddress = Field(@rowSelected, "CSC Email Address")
+        SET @unsubscribeText = Field(@rowSelected, "Unsubscribe Text")
+    ENDIF
+
+ELSEIF (@language=="EN" AND NOT EMPTY(@regionMainStore) AND NOT EMPTY(@country)) THEN
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOOTER_TRANSLATION", "Language", @language, "Region Main Store", @regionMainStore, "Country", @country)
+
+    IF Rowcount(@rows) > 0 THEN
+
+        SET @found = "true"
+    
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+
+        SET @lineText_1 = Field(@rowSelected, "Line 1 Text")
+        SET @lineLink_1 = Field(@rowSelected, "Line 1 Link")
+        SET @lineText_2 = Field(@rowSelected, "Line 2 Text")
+        SET @lineLink_2 = Field(@rowSelected, "Line 2 Link")
+        SET @lineText_3 = Field(@rowSelected, "Line 3 Text")
+        SET @lineLink_3 = Field(@rowSelected, "Line 3 Link")
+        SET @lineText_4 = Field(@rowSelected, "Line 4 Text")
+        SET @lineLink_4 = Field(@rowSelected, "Line 4 Link")
+        SET @socialMediaText_1 = Field(@rowSelected, "Social Media 1 Text")
+        SET @socialMediaLink_1 = Field(@rowSelected, "Social Media 1 Link")
+        SET @socialMediaText_2 = Field(@rowSelected, "Social Media 2 Text")
+        SET @socialMediaLink_2 = Field(@rowSelected, "Social Media 2 Link")
+        SET @socialMediaText_3 = Field(@rowSelected, "Social Media 3 Text")
+        SET @socialMediaLink_3 = Field(@rowSelected, "Social Media 3 Link")
+        SET @socialMediaText_4 = Field(@rowSelected, "Social Media 4 Text")
+        SET @socialMediaLink_4 = Field(@rowSelected, "Social Media 4 Link")
+        SET @socialMediaText_5 = Field(@rowSelected, "Social Media 5 Text")
+        SET @socialMediaLink_5 = Field(@rowSelected, "Social Media 5 Link")
+        SET @privacyPolicyText = Field(@rowSelected, "Privacy Policy Text")
+        SET @privacyPolicyLink = Field(@rowSelected, "Privacy Policy Link")
+        SET @legalMentionText = Field(@rowSelected, "Legal Mention Text")
+        SET @cscEmailAddress = Field(@rowSelected, "CSC Email Address")
+        SET @unsubscribeText = Field(@rowSelected, "Unsubscribe Text")
+    ENDIF
+
+ELSE
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOOTER_TRANSLATION", "Language", "Default")
+
+    IF Rowcount(@rows) > 0 THEN
+
+        SET @found = "true"
+
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+
+        SET @lineText_1 = Field(@rowSelected, "Line 1 Text")
+        SET @lineLink_1 = Field(@rowSelected, "Line 1 Link")
+        SET @lineText_2 = Field(@rowSelected, "Line 2 Text")
+        SET @lineLink_2 = Field(@rowSelected, "Line 2 Link")
+        SET @lineText_3 = Field(@rowSelected, "Line 3 Text")
+        SET @lineLink_3 = Field(@rowSelected, "Line 3 Link")
+        SET @lineText_4 = Field(@rowSelected, "Line 4 Text")
+        SET @lineLink_4 = Field(@rowSelected, "Line 4 Link")
+        SET @socialMediaText_1 = Field(@rowSelected, "Social Media 1 Text")
+        SET @socialMediaLink_1 = Field(@rowSelected, "Social Media 1 Link")
+        SET @socialMediaText_2 = Field(@rowSelected, "Social Media 2 Text")
+        SET @socialMediaLink_2 = Field(@rowSelected, "Social Media 2 Link")
+        SET @socialMediaText_3 = Field(@rowSelected, "Social Media 3 Text")
+        SET @socialMediaLink_3 = Field(@rowSelected, "Social Media 3 Link")
+        SET @socialMediaText_4 = Field(@rowSelected, "Social Media 4 Text")
+        SET @socialMediaLink_4 = Field(@rowSelected, "Social Media 4 Link")
+        SET @socialMediaText_5 = Field(@rowSelected, "Social Media 5 Text")
+        SET @socialMediaLink_5 = Field(@rowSelected, "Social Media 5 Link")
+        SET @privacyPolicyText = Field(@rowSelected, "Privacy Policy Text")
+        SET @privacyPolicyLink = Field(@rowSelected, "Privacy Policy Link")
+        SET @legalMentionText = Field(@rowSelected, "Legal Mention Text")
+        SET @cscEmailAddress = Field(@rowSelected, "CSC Email Address")
+        SET @unsubscribeText = Field(@rowSelected, "Unsubscribe Text")
+    ENDIF
+
+ENDIF
+
+IF @found != "true" THEN 
+
+    VAR @rows
+    SET @rows = LookupRows("EMAIL_FOOTER_TRANSLATION", "Language", "Default")
+
+    IF Rowcount(@rows) > 0 THEN
+    
+        VAR @rowSelected
+        SET @rowSelected = Row(@rows, 1)
+
+        SET @lineText_1 = Field(@rowSelected, "Line 1 Text")
+        SET @lineLink_1 = Field(@rowSelected, "Line 1 Link")
+        SET @lineText_2 = Field(@rowSelected, "Line 2 Text")
+        SET @lineLink_2 = Field(@rowSelected, "Line 2 Link")
+        SET @lineText_3 = Field(@rowSelected, "Line 3 Text")
+        SET @lineLink_3 = Field(@rowSelected, "Line 3 Link")
+        SET @lineText_4 = Field(@rowSelected, "Line 4 Text")
+        SET @lineLink_4 = Field(@rowSelected, "Line 4 Link")
+        SET @socialMediaText_1 = Field(@rowSelected, "Social Media 1 Text")
+        SET @socialMediaLink_1 = Field(@rowSelected, "Social Media 1 Link")
+        SET @socialMediaText_2 = Field(@rowSelected, "Social Media 2 Text")
+        SET @socialMediaLink_2 = Field(@rowSelected, "Social Media 2 Link")
+        SET @socialMediaText_3 = Field(@rowSelected, "Social Media 3 Text")
+        SET @socialMediaLink_3 = Field(@rowSelected, "Social Media 3 Link")
+        SET @socialMediaText_4 = Field(@rowSelected, "Social Media 4 Text")
+        SET @socialMediaLink_4 = Field(@rowSelected, "Social Media 4 Link")
+        SET @socialMediaText_5 = Field(@rowSelected, "Social Media 5 Text")
+        SET @socialMediaLink_5 = Field(@rowSelected, "Social Media 5 Link")
+        SET @privacyPolicyText = Field(@rowSelected, "Privacy Policy Text")
+        SET @privacyPolicyLink = Field(@rowSelected, "Privacy Policy Link")
+        SET @legalMentionText = Field(@rowSelected, "Legal Mention Text")
+        SET @cscEmailAddress = Field(@rowSelected, "CSC Email Address")
+        SET @unsubscribeText = Field(@rowSelected, "Unsubscribe Text")
+    ENDIF
+ENDIF
+]%%

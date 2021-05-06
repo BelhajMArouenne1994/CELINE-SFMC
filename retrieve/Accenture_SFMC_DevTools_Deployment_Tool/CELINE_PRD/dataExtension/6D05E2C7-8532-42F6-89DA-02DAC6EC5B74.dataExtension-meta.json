@@ -1,0 +1,142 @@
+{
+    "CreatedDate": "2021-03-26T03:36:03.697",
+    "CustomerKey": "6D05E2C7-8532-42F6-89DA-02DAC6EC5B74",
+    "Name": "EMAIL SOCIAL MEDIA LINKS TRANSLATION",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email Code",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Region Main Store",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Country",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Language",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "1500",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 1 Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 2 Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 3 Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 4 Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Text",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Social Media 5 Link",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "3500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/NEW TRANSLATION TABLES"
+}

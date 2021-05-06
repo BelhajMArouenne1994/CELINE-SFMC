@@ -1,0 +1,16 @@
+{
+    "name": "TRANSFER UNDELIVERABLE STATUS FROM SAFEHOUSE",
+    "customerKey": "1206981d-5afd-451b-93db-de3487f3c676",
+    "createdDate": "2021-04-02T03:37:34.047",
+    "modifiedDate": "2021-04-02T07:25:11.873",
+    "fileSpec": "UNDELIVERABLE_STATUS_%%Year%%_%%Month%%_%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

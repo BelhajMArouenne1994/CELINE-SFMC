@@ -1,0 +1,11 @@
+{
+    "name": "QUERY_UNSUBS_OUTSIDE_CLOUD_PAGE_24",
+    "key": "9394ff85-5e14-480a-8e74-b80fe4565b78",
+    "description": "",
+    "targetKey": "0B891293-FEA4-4CAF-AB5A-30E0D9ABD59E",
+    "createdDate": "2021-03-31T08:42:30.733",
+    "modifiedDate": "2021-04-06T05:56:42.79",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/UNSUBSCRIBES/UNSUBS OUTSIDE CLOUD PAGE"
+}

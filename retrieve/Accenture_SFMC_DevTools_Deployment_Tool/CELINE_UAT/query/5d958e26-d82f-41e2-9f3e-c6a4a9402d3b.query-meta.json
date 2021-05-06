@@ -1,0 +1,11 @@
+{
+    "name": "SQL_QUERY_VALIDATE_RAMP_UP_DATA",
+    "key": "5d958e26-d82f-41e2-9f3e-c6a4a9402d3b",
+    "description": "",
+    "targetKey": "8B1FC791-01A7-4E32-85A1-370F698B7704",
+    "createdDate": "2021-03-18T04:48:15.963",
+    "modifiedDate": "2021-03-18T04:48:15.963",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "EXTRACT_SENDLOGS",
+    "key": "B7A977F8-AE3D-425A-BD79-9436E6EF78CC",
+    "fileSpec": "SendLog_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-04-21T10:34:52.383",
+    "modifiedDate": "2021-04-21T10:34:52.383",
+    "createdBy": 710172526,
+    "modifiedBy": 710172526,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "022BA63C-1E9C-4589-9212-0B6387624945"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

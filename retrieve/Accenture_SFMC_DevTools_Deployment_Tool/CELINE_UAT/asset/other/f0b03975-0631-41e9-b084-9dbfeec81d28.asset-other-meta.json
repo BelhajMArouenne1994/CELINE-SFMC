@@ -1,0 +1,32 @@
+{
+    "customerKey": "f0b03975-0631-41e9-b084-9dbfeec81d28",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Sent by SFMC Flag"
+    },
+    "name": "CODE_SNIPPET_PROPAGATE_SENT_BY_SFMC",
+    "description": "This code snippet is responsible of updating the field : cel_sent_by_sfcm__c to True in SF Sales Cloud when an email is sent to a client from MC.",
+    "owner": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "createdDate": "2021-03-11T10:06:58.763-06:00",
+    "createdBy": {
+        "email": "amal.bahrini-ext@celine.fr",
+        "name": "Amal BAHRINI"
+    },
+    "modifiedDate": "2021-04-12T07:38:45.54-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/TEMPLATE_BLOCKS/CODE SNIPPETS"
+}

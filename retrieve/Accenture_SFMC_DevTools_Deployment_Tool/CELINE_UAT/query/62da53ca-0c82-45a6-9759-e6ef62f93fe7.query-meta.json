@@ -1,0 +1,11 @@
+{
+    "name": "RESUBSCRIBES_24_QUERY",
+    "key": "62da53ca-0c82-45a6-9759-e6ef62f93fe7",
+    "description": "",
+    "targetKey": "51C573A1-13F1-464C-B511-94E387A03068",
+    "createdDate": "2021-04-02T09:49:57.213",
+    "modifiedDate": "2021-04-02T09:49:57.213",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

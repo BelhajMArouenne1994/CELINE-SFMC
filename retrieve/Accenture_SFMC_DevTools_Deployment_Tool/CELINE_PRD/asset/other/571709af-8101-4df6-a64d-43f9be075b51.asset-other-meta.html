@@ -1,0 +1,26 @@
+<div style="display:none">
+%%[
+
+VAR @SubscriberKey
+SET @SubscriberKey = _subscriberkey
+
+VAR @EmailName
+SET @EmailName = emailname_
+
+VAR @preheader
+SET @preheader = [_preheader]
+
+VAR @IsTestSend
+SET @IsTestSend = _IsTestSend
+
+VAR @SendTime
+SET @SendTime = Format(SystemDateToLocalDate(NOW()), "yyyy-MM-ddTHH:mm:ss", "Date", "fr-FR")
+
+VAR @DayOfTheWeek
+SET @DayOfTheWeek = Format(SystemDateToLocalDate(NOW()), "dddd", "Date", "en-FR")
+
+VAR @DataSourceName
+SET @DataSourceName = _DataSourceName
+
+]%%
+</div> 

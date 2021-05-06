@@ -1,0 +1,34 @@
+{
+    "name": "Audit_Trail_Activity_Extract",
+    "key": "55A21A70-A185-4A97-B716-719AD23DED9A",
+    "description": "This is the Extract Activity to get a CSV file containing the Audit trail Activities",
+    "fileSpec": "Audit_Trail_Activity_Log_%%Year%%_%%Month%%_%%Day%%.csv",
+    "createdDate": "2021-05-04T07:30:02.76",
+    "modifiedDate": "2021-05-05T01:36:15.897",
+    "createdBy": 710142709,
+    "modifiedBy": 710142709,
+    "intervalType": 2,
+    "dataFields": [
+        {
+            "name": "ApplyTimeZone",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "ConvertToASCII",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "IncludeHeader",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "7"
+        }
+    ],
+    "r__dataExtractType_name": "Audit Trail Activity Log"
+}

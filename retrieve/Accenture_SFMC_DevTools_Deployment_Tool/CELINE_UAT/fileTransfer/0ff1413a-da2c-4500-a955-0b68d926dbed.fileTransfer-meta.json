@@ -1,0 +1,16 @@
+{
+    "name": "TRANSFER SUBSCRIBERS STATUS FROM SAFEHOUSE",
+    "customerKey": "0ff1413a-da2c-4500-a955-0b68d926dbed",
+    "createdDate": "2021-04-09T06:58:54.733",
+    "modifiedDate": "2021-04-10T05:38:36.573",
+    "fileSpec": "SUBSCRIBERS_STATUS_%%Year%%_%%Month%%_%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,44 @@
+%%[
+/* Retrieving the @accountId */
+VAR @accountId
+IF EMPTY([Account Id]) THEN
+    VAR @rows
+    SET @rows = LookupRows("Contacts", "ContactKey", _subscriberkey)
+    IF Rowcount(@rows) > 0 THEN
+        SET @row = Row(@rows, 1)
+        SET @accountIdSFMCFlag = Field(@row, "Account Id")
+        /* For Proofing we need to get the variables from the Proof Data Extension not from the Contacts DE, because we do not have the same subscribers keys*/ 
+    ELSE
+      SET @rows = LookupRows(_DataSourceName , "ContactKey", @skey)
+      IF Rowcount(@rows) > 0 THEN
+        VAR @row
+        SET @row = Row(@rows, 1)
+        SET @accountIdSFMCFlag = Field(@row, "Account Id")
+    ENDIF
+  ENDIF
+ELSE
+    SET @accountId = [Account Id]
+ENDIF
+
+/* If email is sent, update Account in Sales Cloud */
+/* cel_sent_by_sfcm__c is set to true */
+/* AccountSource is set to RCU */
+IF _messagecontext == 'SEND' AND _isTestSend == false THEN
+    VAR @updateRecord
+    SET @updateRecord = UpdateSingleSalesforceObject(   "Account",  @accountId,
+                                                        "cel_sent_by_sfcm__c", "true",
+                                                        "AccountSource", "RCU")
+    IF @updateRecord != 1 THEN
+        /* If the sent is not successful, we log the error in ErrorLogs Data Extension */
+        InsertDE(   "ErrorLogs",
+                    "ContactKey", _subscriberkey,
+                    "Error", "cel_sent_by_sfcm__c not updated successfully",
+                    "JobID", jobid,
+                    "ListID", ListID, 
+                    "EmailName", emailname_,
+                    "DateSent", NOW())
+        /* If the sent is not successful, we skip for the current subscriber and move to next one */
+        RaiseError("Sent By SFMC was not updated successfully", true) 
+    ENDIF
+ENDIF
+]%%

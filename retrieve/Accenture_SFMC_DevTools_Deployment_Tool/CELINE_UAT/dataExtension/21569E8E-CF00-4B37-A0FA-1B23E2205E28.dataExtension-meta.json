@@ -1,0 +1,104 @@
+{
+    "CreatedDate": "2021-04-14T03:17:29.06",
+    "CustomerKey": "21569E8E-CF00-4B37-A0FA-1B23E2205E28",
+    "Name": "UNSUBSCRIBE_PAGE_TRANSLATION",
+    "Description": "This Data Extension contains phrases used in Unsubscribe Page",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Language",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Unsubscribe Text Line 1",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Unsubscribe Text Line 2",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Already Unsubscribed Text",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Unsubscribe Button",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Confirmation Message Line 1",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Confirmation Message Line 2",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Image Link",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Email Text By Language",
+            "DefaultValue": "",
+            "MaxLength": "255",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Error Message",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Client Service",
+            "DefaultValue": "",
+            "MaxLength": "2500",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/TRANSALATION TABLES"
+}

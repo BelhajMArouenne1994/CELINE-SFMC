@@ -1,0 +1,11 @@
+{
+    "name": "QUERY_ALL_SUBSCRIBERS_LIST_UPDATES",
+    "key": "3f495339-cfad-450f-915b-a757870f107e",
+    "description": "",
+    "targetKey": "6985DFB6-167D-4427-AF4B-D23903B8BA39",
+    "createdDate": "2021-04-09T08:41:03.333",
+    "modifiedDate": "2021-04-11T05:52:35.287",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

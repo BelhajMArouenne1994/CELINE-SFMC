@@ -1,0 +1,11 @@
+{
+    "name": "SQL_CHEETAH_DATA_PREP",
+    "key": "5ec686b4-30f2-4a32-8c07-b42374419645",
+    "description": "",
+    "targetKey": "D3B8C4C5-DD8B-4521-B4A0-08D3BB6A297A",
+    "createdDate": "2021-03-12T08:51:29.923",
+    "modifiedDate": "2021-03-15T02:52:31.723",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Data Sync"
+}

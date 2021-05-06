@@ -1,0 +1,41 @@
+{
+    "allowErrors": true,
+    "customerKey": "EFCB78BE-F21A-42E3-BE41-D07ABFCA88D4",
+    "createdDate": "2021-04-09T07:14:10.72",
+    "modifiedDate": "2021-04-10T05:39:40.48",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "ContactKey"
+        },
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "Status",
+            "destinationFieldName": "Status"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "Subscribers.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "IMPORT_SUBSCRIBERS_STATUS_DE",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "C1D22BB9-5771-4384-9C07-905FB82DE40F",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

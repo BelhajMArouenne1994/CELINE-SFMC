@@ -1,0 +1,29 @@
+{
+    "name": "IMPORT_EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION",
+    "description": "",
+    "key": "a463614d-0890-4232-77fd-3971f75ae593",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 2,
+        "fileNamingPattern": "EMAIL_FOUR_IMAGES_BLOCK-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_FOUR_IMAGES_BLOCK_TRANSLATION",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}

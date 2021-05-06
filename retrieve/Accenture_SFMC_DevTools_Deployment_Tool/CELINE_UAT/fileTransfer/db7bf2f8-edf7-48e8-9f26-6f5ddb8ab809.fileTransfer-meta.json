@@ -1,0 +1,16 @@
+{
+    "name": "UNZIP SUBSCRIBERS STATUS",
+    "customerKey": "db7bf2f8-edf7-48e8-9f26-6f5ddb8ab809",
+    "createdDate": "2021-04-09T07:05:25.627",
+    "modifiedDate": "2021-04-10T05:39:18.1",
+    "fileSpec": "SUBSCRIBERS_STATUS_%%Year%%_%%Month%%_%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

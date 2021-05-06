@@ -1,0 +1,32 @@
+{
+    "customerKey": "47c5e6b4-9ba6-40de-b858-6542d4f90f72",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "CODE_SNIPPET_PROPAGATE_SENT_BY_SFMC DUPLICATE"
+    },
+    "name": "CODE_SNIPPET_PROPAGATE_SENT_BY_SFMC DUPLICATE",
+    "description": "Code created to update the flag field in SFSC named cel_sent_by_sfcm__c",
+    "owner": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "createdDate": "2021-04-12T04:27:34.687-06:00",
+    "createdBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "modifiedDate": "2021-04-12T04:32:54.693-06:00",
+    "modifiedBy": {
+        "email": "marouenne.belhajali-ext@celine.fr",
+        "name": "Marouenne belhaj"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/TEMPLATE_BLOCKS/CODE SNIPPETS"
+}

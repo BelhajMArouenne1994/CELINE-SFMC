@@ -1,0 +1,24 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none">
+    %%=ContentBlockByName("Content Builder\TEMPLATE_BLOCKS\CODE SNIPPETS\CODE_SNIPPET_EMAIL_HEADER_TRANSLATION")=%%
+    %%[
+    VAR @align
+    IF NOT EMPTY(__AdditionalEmailAttribute2) THEN
+    SET @align = __AdditionalEmailAttribute2
+    ELSE
+    SET @align = "justify"
+    ENDIF
+    ]%%
+</div>
+<table class="w100v" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+    <tr>
+        <td>
+            <table class="w100v" width="800" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                    <td style="padding-left:50px;padding-right:50px;padding-top:50px;padding-bottom:0px;font-family:Arial,sans-serif;font-size:10px;color:#000000;" class="pad-lr fs225v" valign="top" align="%%=v(@align)=%%">
+                        <a href="%%view_email_url%%" style="color:#000000;text-decoration:none;">%%=v(@mirrorLink)=%%</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table></td></tr></table>

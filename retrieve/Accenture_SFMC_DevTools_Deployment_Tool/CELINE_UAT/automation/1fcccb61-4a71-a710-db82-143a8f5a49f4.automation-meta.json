@@ -1,0 +1,30 @@
+{
+    "name": "IMPORT_EMAIL_SOCIAL_MEDIA_LINKS_TRANSLATION",
+    "description": "",
+    "key": "1fcccb61-4a71-a710-db82-143a8f5a49f4",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "EMAIL_SOCIAL_MEDIA_LINKS-TRANSLATION",
+        "folderLocationText": "import\\translation tables\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "IMPORT_EMAIL_SOCIAL_MEDIA_LINKS_TRANSLATION",
+                    "displayOrder": 1,
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Imports/Translation Tables"
+}
