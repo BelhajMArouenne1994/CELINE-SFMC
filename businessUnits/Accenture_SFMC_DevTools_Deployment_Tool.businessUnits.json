@@ -1,0 +1,35 @@
+[
+    {
+        "PartnerKey": "",
+        "ID": "510003127",
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": "0",
+        "Name": "CELINE MAIN",
+        "IsActive": "1",
+        "ParentName": "",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": "510003879",
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": "510003127",
+        "Name": "CELINE PRD",
+        "IsActive": "1",
+        "ParentName": "CELINE MAIN",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": "510003815",
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": "510003127",
+        "Name": "CELINE UAT",
+        "IsActive": "1",
+        "ParentName": "CELINE MAIN",
+        "Subscription": ""
+    }
+]

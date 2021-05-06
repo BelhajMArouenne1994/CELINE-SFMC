@@ -1,0 +1,27 @@
+{
+  "name": "celine-git-repo",
+  "scripts": {
+    "build": "sfmc-build all",
+    "build-cp": "sfmc-build cloudPages",
+    "build-email": "sfmc-build emails",
+    "upgrade": "npm-check --update",
+    "eslint-check": "eslint"
+  },
+  "author": "Accenture",
+  "license": "UNLICENSED",
+  "description": "This project relies on **Accenture SFMC DevTools**!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-ssjs": "^1.1.11",
+    "eslint-plugin-jsdoc": "^33.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "npm-check": "^5.9.2",
+    "prettier": "^2.2.1",
+    "sfmc-boilerplate": "^1.2.6"
+  },
+  "keywords": []
+}
