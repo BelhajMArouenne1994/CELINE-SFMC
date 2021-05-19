@@ -1,0 +1,46 @@
+{
+    "CreatedDate": "2021-05-12T07:07:56.443",
+    "CustomerKey": "7C46B31A-E905-4209-817C-A8595F985C0F",
+    "Name": "Prospect Newsletter Subscription P_NL_FLT_0 - 2021-05-12T070756371",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Account:PersonContact:Id"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Account:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:PersonContact:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:PersonContact:Email",
+            "DefaultValue": "",
+            "MaxLength": "80",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

@@ -1,0 +1,85 @@
+{
+    "CreatedDate": "2021-05-17T12:43:54.843",
+    "CustomerKey": "67C35A8F-121A-4695-A31C-52AC3306CF65",
+    "Name": "Prospect Newsletter - 2021-05-17T124354786",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Account:PersonContact:Id"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Account:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:PersonContact:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:PersonContact:Email",
+            "DefaultValue": "",
+            "MaxLength": "80",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Account:cel_region_main_store__c",
+            "DefaultValue": "",
+            "MaxLength": "1300",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:FirstName",
+            "DefaultValue": "",
+            "MaxLength": "40",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:LastName",
+            "DefaultValue": "",
+            "MaxLength": "80",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:cel_origine__c",
+            "DefaultValue": "",
+            "MaxLength": "255",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account:cel_FLEN_Active__c",
+            "DefaultValue": "False",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Boolean"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

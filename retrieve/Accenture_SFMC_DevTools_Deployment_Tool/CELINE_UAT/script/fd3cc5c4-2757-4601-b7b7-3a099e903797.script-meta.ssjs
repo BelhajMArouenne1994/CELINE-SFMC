@@ -34,6 +34,7 @@ try {
         };
         try {
             var resp = prox.createItem('Subscriber', sub, options);
+            var resp = prox.createItem('Subscriber', sub, options);
         } catch (e) {
             action = 'error';
         }

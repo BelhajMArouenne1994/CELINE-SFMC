@@ -1,0 +1,22 @@
+{
+    "name": "Retrieve Transactions Automation1",
+    "description": "",
+    "key": "0539b09b-a098-37ee-1c02-0da5fc3ea021",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Transaction Query",
+                    "displayOrder": 1,
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Transactions/OLD"
+}

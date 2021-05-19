@@ -1,0 +1,128 @@
+{
+    "CreatedDate": "2021-05-17T03:24:15.993",
+    "CustomerKey": "2E3830C9-5566-4592-98E9-C7BF43EEEEA3",
+    "Name": "Transactions",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Contact Key",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Account Id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Transaction Id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Transaction Line Id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product Id",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Transaction Accounting Date",
+            "Scale": "0",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Quantity",
+            "Scale": "2",
+            "DefaultValue": "",
+            "MaxLength": "12",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Decimal"
+        },
+        {
+            "Name": "Type Code",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "6",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Season Code",
+            "Scale": "0",
+            "DefaultValue": "",
+            "MaxLength": "10",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Categories",
+            "DefaultValue": "",
+            "MaxLength": "1300",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product Category",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product Generic Code",
+            "DefaultValue": "",
+            "MaxLength": "15",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Product Type Name",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Transactions"
+}

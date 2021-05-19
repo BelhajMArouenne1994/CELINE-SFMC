@@ -1,0 +1,11 @@
+{
+    "name": "Transaction All Query",
+    "key": "a83e5431-8471-4442-8107-0f7927807ee1",
+    "description": "",
+    "targetKey": "2E3830C9-5566-4592-98E9-C7BF43EEEEA3",
+    "createdDate": "2021-05-10T06:25:22.39",
+    "modifiedDate": "2021-05-18T10:41:52.637",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

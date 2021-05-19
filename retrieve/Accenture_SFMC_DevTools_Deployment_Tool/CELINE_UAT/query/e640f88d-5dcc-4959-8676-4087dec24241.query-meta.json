@@ -1,0 +1,11 @@
+{
+    "name": "Transaction Query",
+    "key": "e640f88d-5dcc-4959-8676-4087dec24241",
+    "description": "",
+    "targetKey": "B92F7057-6BBA-4FEE-B209-FB45B6B78385",
+    "createdDate": "2021-05-06T11:57:41.183",
+    "modifiedDate": "2021-05-06T12:01:43.787",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

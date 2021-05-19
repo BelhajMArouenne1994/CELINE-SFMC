@@ -1,0 +1,11 @@
+{
+    "name": "Transaction Lines Query",
+    "key": "b5319cac-d64b-42e3-b109-97b150acbcd0",
+    "description": "",
+    "targetKey": "381F580A-FCFF-4273-B6FE-99AFC3FE7170",
+    "createdDate": "2021-05-06T16:05:56.323",
+    "modifiedDate": "2021-05-06T16:05:56.323",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

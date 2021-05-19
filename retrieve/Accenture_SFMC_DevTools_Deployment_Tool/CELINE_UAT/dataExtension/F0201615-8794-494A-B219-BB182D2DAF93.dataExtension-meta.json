@@ -1,0 +1,70 @@
+{
+    "CreatedDate": "2021-05-17T10:58:55.53",
+    "CustomerKey": "F0201615-8794-494A-B219-BB182D2DAF93",
+    "Name": "Prospect Newsletter Subscription P_NL_FLT_0 - 2021-05-17T105855479",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Contact:Account:PersonContactId"
+    },
+    "SendableSubscriberField": {
+        "Name": "_SubscriberKey"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Contact:Account:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Contact:Account:PersonContactId",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Contact:Account:LastName",
+            "DefaultValue": "",
+            "MaxLength": "80",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Contact:Account:FirstName",
+            "DefaultValue": "",
+            "MaxLength": "40",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Contact:Account:PersonEmail",
+            "DefaultValue": "",
+            "MaxLength": "80",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Contact:Id",
+            "DefaultValue": "",
+            "MaxLength": "18",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

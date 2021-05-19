@@ -1,0 +1,138 @@
+<div style="display:none">
+  %%[
+    VAR @fullName, @title, @titleCity, @phone, @mobile, @city, @addresseLine1, @addresseLine2, @addresseLine3, @StoreManagerEmail
+    SET @fullName = __AdditionalEmailAttribute1
+    SET @title = __AdditionalEmailAttribute2
+    SET @titleCity = __AdditionalEmailAttribute3
+    SET @phone = __AdditionalEmailAttribute4
+    SET @mobile = __AdditionalEmailAttribute5
+    SET @addresseLine1 = __AdditionalEmailAttribute6
+    SET @addresseLine2 = __AdditionalEmailAttribute7
+    SET @addresseLine3 = __AdditionalEmailAttribute8
+]%%
+</div>
+<div style="display:none">
+%%[
+
+VAR @SubscriberKey
+IF EMPTY(_subscriberkey) THEN
+  SET @SubscriberKey = ContactKey
+ELSE
+  SET @SubscriberKey = _subscriberkey
+ENDIF
+
+
+VAR @EmailName
+SET @EmailName = emailname_
+
+VAR @preheader
+SET @preheader = [_preheader]
+
+VAR @IsTestSend
+SET @IsTestSend = _IsTestSend
+
+VAR @SendTime
+SET @SendTime = Format(SystemDateToLocalDate(NOW()), "yyyy-MM-ddTHH:mm:ss", "Date", "fr-FR")
+
+VAR @DayOfTheWeek
+SET @DayOfTheWeek = Format(SystemDateToLocalDate(NOW()), "dddd", "Date", "en-FR")
+
+VAR @DataSourceName
+SET @DataSourceName = _DataSourceName
+]%%
+</div> 
+<div style="display:none">
+  %%=ContentBlockByName("Content Builder\CELINE Store Manager Text Only Template Manual\Code Snippets\SENDLOG_CODE_SNIPPET")=%%
+</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+      &nbsp;
+    </div>
+    <!--[if mso]>
+<style>
+.div {
+/* Outlook-specific CSS goes here. */
+font-family: Arial,Helvetica,sans-serif !important;
+color: #000000 !important;
+text-align:left !important;
+font-size:12px !important;
+line-height: 14px !important;
+}
+</style>
+<![endif]-->
+  </head>
+  <body>
+    <style>
+      /* This is the HTML Block Style */
+      .stylingblock-content-wrapper {
+        font-family: Arial,Helvetica,sans-serif !important;
+        color: #000000 !important;
+        text-align:left !important;
+        font-size:12px !important;
+        line-height: 14px !important;
+      }
+    </style>
+    <div style="font-size:0; line-height:0;">
+      <custom name="opencounter" type="tracking" />
+      <custom name="usermatch" type="tracking" />
+    </div>
+    <table bgcolor="#FFFFFF" width="600" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td style="font-family:Arial,Helvetica,sans-serif !important;color:#000000 !important;text-align:left !important;font-size:12px !important; line-height: 14px !important">
+          <div data-type="slot" data-key="banner" data-label="Drop a HTML Block here and paste Body Text with the !! br !! Tags.">
+          </div>
+          <div style="font-family:Arial,Helvetica,sans-serif;color:#000000;text-align:left;font-size:12px; line-height: 14px">
+            <strong>%%=v(@fullName)=%%</strong>
+            <br />
+            %%=v(@title)=%%<br />
+            <div style="display:none"> %%[ IF NOT EMPTY(@titleCity) THEN ]%% 
+            </div>  
+            %%=v(@titleCity)=%%<br />
+            <br />
+            <div style="display:none"> %%[ ELSE ]%% 
+            </div>    
+            <br />
+            <div style="display:none"> %%[ ENDIF ]%% 
+            </div> 
+            <div style="display:none"> %%[ IF NOT EMPTY(@phone) THEN ]%% 
+            </div>  
+            %%=v(@phone)=%%<br />
+            <div style="display:none"> %%[ ENDIF ]%% 
+            </div> 
+            <div style="display:none"> %%[ IF NOT EMPTY(@mobile) THEN ]%% 
+            </div>  
+            %%=v(@mobile)=%%<br />
+            <br />
+            <div style="display:none"> %%[ ELSE ]%% 
+            </div>    
+            <br />
+            <div style="display:none"> %%[ ENDIF ]%% 
+            </div> 
+            %%=v(@addresseLine1)=%%<br />
+            <div style="display:none"> %%[ IF NOT EMPTY(@addresseLine2) THEN ]%% 
+            </div>  
+            %%=v(@addresseLine2)=%%<br />
+            <div style="display:none"> %%[ ENDIF ]%% 
+            </div> 
+            <div style="display:none"> %%[ IF NOT EMPTY(@addresseLine3) THEN ]%% 
+            </div>  
+            %%=v(@addresseLine3)=%%<br />
+            <br />
+            <div style="display:none"> %%[ ELSE ]%% 
+            </div>    
+            <br />
+            <div style="display:none"> %%[ ENDIF ]%% 
+            </div>  
+          </div>
+          <img src="http://wpm.ccmp.eu/wpm/100544/ContentUploads/celine_logo.png" display:block width="103"
+               height="22" />
+          <br />
+          <br />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

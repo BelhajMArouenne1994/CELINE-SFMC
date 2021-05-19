@@ -72,7 +72,7 @@
             "step": 6,
             "activities": [
                 {
-                    "name": "1 Minutes",
+                    "name": "3 Minutes",
                     "displayOrder": 1,
                     "r__type": "wait"
                 }

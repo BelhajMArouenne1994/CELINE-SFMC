@@ -8,6 +8,7 @@
     "steps": [
         {
             "name": "",
+            "description": "",
             "step": 1,
             "activities": [
                 {
@@ -19,6 +20,7 @@
         },
         {
             "name": "",
+            "description": "",
             "step": 2,
             "activities": [
                 {
@@ -30,6 +32,7 @@
         },
         {
             "name": "",
+            "description": "",
             "step": 3,
             "activities": [
                 {

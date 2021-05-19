@@ -1,0 +1,28 @@
+{
+    "name": "TEST AUTOMATION SFMC DEV TOOL",
+    "description": "",
+    "key": "bf8f1246-2c5a-fc00-26fd-e7c0cacba41b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2019-03-25T18:53:23.223",
+        "endDate": "2038-03-25T18:53:23.223",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20380325T195323;INTERVAL=1",
+        "timezoneName": "Central Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "3 Minutes",
+                    "displayOrder": 1,
+                    "r__type": "wait"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/TEST SFMC DEV TOOL"
+}
